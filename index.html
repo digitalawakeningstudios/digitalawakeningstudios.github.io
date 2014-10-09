@@ -1,1 +1,795 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Freelance Graphics Programmer and Technical Director | Nathan Selikoff</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="I'm a freelance graphics programmer and technical director, collaborating with artists and organizations to make interactive tools, installations and performances. Processing, Cinder, and openFrameworks are among my favorite tools.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="v_Y8myTmIEUBuHc50K0xhC4NId33fk89mmtrigT_x9I" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript">
+            function trackOutboundLink(link, category, action) {
+                try { 
+                    _gaq.push(['_trackEvent', category , action]);
+                } catch(err){}
+                setTimeout(function() {
+                    document.location.href = link.href;
+                }, 100);
+            }
+        </script>
+    </head>
+    <body>
+        <header id="top">
+            <nav class="navbar navbar-static-top navbar-inverse">
+                <div class="navbar-inner">
+                    <a class="brand" href="/"><img src="img/logo.png" alt="Digital Awakening Studios"></a>
+                    <ul class="nav">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container-fluid">
+            <header>
+                <h1 id="hello">Hello!</h1>
+            </header>
+
+            <p class="lead">My name is Nathan Selikoff, and I'm a freelance graphics programmer and technical director.</p>
+
+            <div class="row-fluid">
+                <div class="span6">
+                    <p>I collaborate with <strong><abbr title="visual artists, musicians, designers, architects, dancers, performers...">artists</abbr></strong> and <strong><abbr title="studios, agencies, art and design practices, cultural institutions, corporate clients...">organizations</abbr></strong> to make interactive tools, installations and performances. If you have a great idea but lack the technical expertise to create it, or you just need to bring on additional help, I would <a href="#contact">love to hear from you</a>.</p>
+
+                    <p><a href="http://processing.org">Processing</a>, <a href="http://libcinder.org">Cinder</a>, <a href="http://openframeworks.cc">openFrameworks</a> and <a href="http://en.wikipedia.org/wiki/Quartz_Composer">Quartz Composer</a> are among my favorite tools, but ultimately I choose the software and hardware most appropriate for the job.</p>
+                </div>
+                <div class="span6">
+                    <aside>
+                        <blockquote>
+                            <p>Nathan is one of those exceedingly rare people who combine communication skills and aesthetic sense with excellent and timely programming. A joy to work with.</p>
+                            <small>Anne Morgan Spalter, Artist and author of <em>The Computer in the Visual Arts</em></small>
+                        </blockquote>
+                    </aside>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-fluid">
+            <header>
+                <h2 id="projects">Projects</h2>
+            </header>
+
+            <div class="row-fluid">
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="vangoghalive-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#vangoghalive-carousel" data-slide="next"><img width="720" height="480" alt="" src="img/projects/vangoghalive-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#vangoghalive-carousel" data-slide="next"><img width="720" height="480" alt="" src="img/projects/vangoghalive-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#vangoghalive-carousel" data-slide="next"><img width="720" height="480" alt="" src="img/projects/vangoghalive-3.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#vangoghalive-carousel" data-slide="next"><img width="720" height="480" alt="" src="img/projects/vangoghalive-4.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#vangoghalive-carousel" data-slide="next"><img width="720" height="480" alt="" src="img/projects/vangoghalive-5.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#vangoghalive-carousel" data-slide-to="0"><a href="img/projects/vangoghalive-1.jpg">1</a></li>
+                                    <li data-target="#vangoghalive-carousel" data-slide-to="1"><a href="img/projects/vangoghalive-2.jpg">2</a></li>
+                                    <li data-target="#vangoghalive-carousel" data-slide-to="2"><a href="img/projects/vangoghalive-3.jpg">3</a></li>
+                                    <li data-target="#vangoghalive-carousel" data-slide-to="3"><a href="img/projects/vangoghalive-3.jpg">4</a></li>
+                                    <li data-target="#vangoghalive-carousel" data-slide-to="4"><a href="img/projects/vangoghalive-3.jpg">5</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="https://www.youtube.com/watch?v=ZlwAcXJdEBI">1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Interactive Van Gogh Painting</h3>
+                        <p><strong>Interactive Installation</strong> for <a href="http://ivandepena.com">Ivan Depeña</a> and <a href="http://www.discoveryplace.org">Discovery Place</a></p>
+                    </header>
+
+                    <p>Having just completed a residency at Discovery Place, artist Ivan Depeña hired me to do the programming for this commission, which accompanied the <em>Van Gogh Alive</em> exhibition at Discovery Place. Concept and Art Direction: Ivan Depeña. <a href="http://www.discoveryplace.org/blog/post/167/Dont-miss-the-opportunity-to-be-painted-in-Van-Goghs-signature-style">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Open Frameworks</li>
+                            <li class="label">Kinect</li>
+                            <li class="label">OpenCV</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="supertouch-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#supertouch-carousel" data-slide="next"><img width="720" height="480" alt="Project Under NDA" src="img/projects/supertouch-1.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li>Project Under NDA</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Corporate Data Visualization</h3>
+                        <p><strong>Data Visualization</strong> for AT&amp;T and <a href="http://www.supertou.ch">SuperTouch</a></p>
+                    </header>
+
+                    <p>SuperTouch enlisted my assistance to meet a tight deadline to expand the <a href="http://www.supertou.ch/home/portfolio/att-adworks-2-0/">AT&amp;T Mobile lab</a> with an interactive data visualization for a large touch screen display. Starting with an Excel spreadsheet, I brought the data into an SQLite database and created a Cinder app to explore it.</p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Cinder</li>
+                            <li class="label">TUIO</li>
+                            <li class="label">SQLite</li>
+                            <li class="label">C++</li>
+                            <li class="label">OpenGL</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="halfnine-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#halfnine-carousel" data-slide="next"><img width="720" height="480" alt="Not Yet Launched" src="img/projects/halfnine-1.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li>Not Yet Launched</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>iPad App</h3>
+                        <p><strong>Interactive Software</strong> for <a href="http://halfnine.com.au">Halfnine</a></p>
+                    </header>
+
+                    <p>Utilizing Cinder's ability to deploy to iOS, I created a unique interactive interface to an upcoming iPad app for one of Halfnine's most discerning clients. After completing the OpenGL portion of the app, I handed it back to Halfnine's team for the build out of the rest of the app.</p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Cinder</li>
+                            <li class="label">Objective C</li>
+                            <li class="label">C++</li>
+                            <li class="label">OpenGL</li>
+                        </ul>
+                    </footer>
+                </section>
+            </div>
+
+            <div class="row-fluid">
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="fourdimensions-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#fourdimensions-carousel" data-slide="next"><img width="720" height="480" alt="Four Dimensions visuals by Nathan Selikoff" src="img/projects/fourdimensions-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#fourdimensions-carousel" data-slide="next"><img width="720" height="480" alt="Audiovisual performance composed by Keith Lay and performed by the Orlando Philharmonic Orchestra" src="img/projects/fourdimensions-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#fourdimensions-carousel" data-slide="next"><img width="720" height="480" alt="Giant outdoor LED billboard screen behind orchestra showing realtime visuals made with Processing" src="img/projects/fourdimensions-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#fourdimensions-carousel" data-slide-to="0"><a href="img/projects/fourdimensions-1.jpg">1</a></li>
+                                    <li data-target="#fourdimensions-carousel" data-slide-to="1"><a href="img/projects/fourdimensions-2.jpg">2</a></li>
+                                    <li data-target="#fourdimensions-carousel" data-slide-to="2"><a href="img/projects/fourdimensions-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="http://youtu.be/N_d8pMxm8Ns">1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Four Dimensions</h3>
+                        <p><strong>Audiovisual Performance</strong> for <a href="http://keithlay.com">Keith Lay</a> and the <a href="http://orlandophil.org">Orlando Philharmonic</a></p>
+                    </header>
+
+                    <p>In a delightful collaboration with composer Keith Lay, I helped conceptualize this single movement work for orchestra, surround sound electronics, and EWI. My main role was to create and perform the realtime visuals for the 48' LED billboard. Photos courtesy Jim Shelton. <a href="http://keithlay.com/works/four_dimensions.html">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Processing</li>
+                            <li class="label">Quartz Composer</li>
+                            <li class="label">TouchOSC</li>
+                            <li class="label">VDMX</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="kaleida-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#kaleida-carousel" data-slide="next"><img width="720" height="480" alt="Anne Spalter's kaleidoscopic video art installed in a gallery" src="img/projects/kaleida-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#kaleida-carousel" data-slide="next"><img width="720" height="480" alt="Visual effects plugin used to create large format video art shown on an outdoor digital billboard" src="img/projects/kaleida-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#kaleida-carousel" data-slide="next"><img width="720" height="480" alt="Single frame of kaleidoscope imagery created from my custom FxFactory Pro plugin" src="img/projects/kaleida-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#kaleida-carousel" data-slide-to="0"><a href="img/projects/kaleida-1.jpg">1</a></li>
+                                    <li data-target="#kaleida-carousel" data-slide-to="1"><a href="img/projects/kaleida-2.jpg">2</a></li>
+                                    <li data-target="#kaleida-carousel" data-slide-to="2"><a href="img/projects/kaleida-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="http://www.youtube.com/watch?v=W2XFBtYU-y0">1</a></li>
+                                    <li><a href="http://youtu.be/VWeHW4jiN7Y">2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>AS Kaleida</h3>
+                        <p><strong>Visual Effects Plugin</strong> for <a href="http://annespalter.com">Anne Spalter</a></p>
+                    </header>
+
+                    <p>Accomplished video artist Anne Spalter hit upon constraints in the off-the-shelf After Effects plugin she was using for her work, so I created a custom plugin for her that expanded her creative possibilities. Photos courtesy Anne Spalter. <a href="http://annespalter.com/cities">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">FxFactory Pro</li>
+                            <li class="label">Quartz Composer</li>
+                            <li class="label">After Effects</li>
+                            <li class="label">Premiere Pro</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="planetarium-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#planetarium-carousel" data-slide="next"><img width="720" height="480" alt="Screen grabs from Quartz Composer generative visuals" src="img/projects/planetarium-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#planetarium-carousel" data-slide="next"><img width="720" height="480" alt="Quartz Composer composition used by CandyStations for Sufjan Stevens" src="img/projects/planetarium-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#planetarium-carousel" data-slide="next"><img width="720" height="480" alt="Complex visual programming nodes and noodles in Quartz Composer" src="img/projects/planetarium-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#planetarium-carousel" data-slide-to="0"><a href="img/projects/planetarium-1.jpg">1</a></li>
+                                    <li data-target="#planetarium-carousel" data-slide-to="1"><a href="img/projects/planetarium-2.jpg">2</a></li>
+                                    <li data-target="#planetarium-carousel" data-slide-to="2"><a href="img/projects/planetarium-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Planetarium</h3>
+                        <p><strong>Generative Visuals</strong> for <a href="http://www.candystations.com/">CandyStations</a></p>
+                    </header>
+
+                    <p>I created a set of tweakable Quartz Composer compositions to add to the arsenal of effects Deborah Johnson had at her fingertips to create the unique spherical projections for Sufjan Stevens, Bryce Dessner, and Nico Muhly's collaborative song cycle project. <a href="http://www.candystations.com/portfolio/planetarium/">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Quartz Composer</li>
+                        </ul>
+                    </footer>
+                </section>
+            </div>
+
+            <div class="row-fluid">
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="interstitials-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#interstitials-carousel" data-slide="next"><img width="720" height="480" alt="A shifting grid of letters generated in Processing are projected on a pipe organ at a new music concert" src="img/projects/interstitials-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#interstitials-carousel" data-slide="next"><img width="720" height="480" alt="Minimalist vector landscape moves over organ pipes (projector, Processing, pipe organ)" src="img/projects/interstitials-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#interstitials-carousel" data-slide="next"><img width="720" height="480" alt="Screen test of a processing sketch that creates simple generative linear imagery" src="img/projects/interstitials-3.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#interstitials-carousel" data-slide="next"><img width="720" height="480" alt="Subtle shifting lines flow across the pipe organ in between pieces at a concert of new classical music in Miami" src="img/projects/interstitials-4.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#interstitials-carousel" data-slide-to="0"><a href="img/projects/interstitials-1.jpg">1</a></li>
+                                    <li data-target="#interstitials-carousel" data-slide-to="1"><a href="img/projects/interstitials-2.jpg">2</a></li>
+                                    <li data-target="#interstitials-carousel" data-slide-to="2"><a href="img/projects/interstitials-3.jpg">3</a></li>
+                                    <li data-target="#interstitials-carousel" data-slide-to="3"><a href="img/projects/interstitials-4.jpg">4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Interstitials</h3>
+                        <p><strong>Generative Visuals</strong> for <a href="http://wilsmithmusic.com">Wil Smith</a></p>
+                    </header>
+
+                    <p>To accompany an evening length performance of new classical music for organ, Wil Smith composed a series of electronic works&mdash;interstitials&mdash;and asked me to craft some visuals for them. Using Processing and a minimal aesthetic, I created imagery that was projected onto the organ pipes at two concerts, in Miami and Brooklyn. <a href="http://nathanselikoff.com/works/interstitials">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Processing</li>
+                            <li class="label">VDMX</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="untiledfaces-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#untiledfaces-carousel" data-slide="next"><img width="720" height="480" alt="Boy plays with interactive sculpture created with openFrameworks, Processing, and Arduino" src="img/projects/untiledfaces-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#untiledfaces-carousel" data-slide="next"><img width="720" height="480" alt="Custom wood enclosure for embedded computer and custom software developed in C++ and OpenGL" src="img/projects/untiledfaces-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#untiledfaces-carousel" data-slide="next"><img width="720" height="480" alt="Joysticks from SparkFun incorporated into interactive sculpture via Arduino" src="img/projects/untiledfaces-3.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#untiledfaces-carousel" data-slide="next"><img width="720" height="480" alt="Previsualization of interactive sculpture using SketchUp" src="img/projects/untiledfaces-4.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#untiledfaces-carousel" data-slide-to="0"><a href="img/projects/untiledfaces-1.jpg">1</a></li>
+                                    <li data-target="#untiledfaces-carousel" data-slide-to="1"><a href="img/projects/untiledfaces-2.jpg">2</a></li>
+                                    <li data-target="#untiledfaces-carousel" data-slide-to="2"><a href="img/projects/untiledfaces-3.jpg">3</a></li>
+                                    <li data-target="#untiledfaces-carousel" data-slide-to="3"><a href="img/projects/untiledfaces-4.jpg">4</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="https://vimeo.com/21410598">1</a></li>
+                                    <li><a href="https://vimeo.com/22661113">2</a></li>
+                                    <li><a href="https://vimeo.com/46847634">3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Untiled Faces</h3>
+                        <p><strong>Interactive Sculpture</strong> for <a href="http://nathanselikoff.com">my fine art practice</a></p>
+                    </header>
+
+                    <p>I created this hand-crafted black box that allows the viewer to explore a chaotic dynamical system (strange attractor) in realtime with audiovisual feedback. Previsualized in SketchUp, prototyped in Processing, and deployed in openFrameworks on an embedded fanless computer running Ubuntu. <a href="http://nathanselikoff.com/works/untiled-faces">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">SketchUp</li>
+                            <li class="label">openFrameworks</li>
+                            <li class="label">Processing</li>
+                            <li class="label">Arduino</li>
+                            <li class="label">C++</li>
+                            <li class="label">OpenGL</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="goodfriday-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#goodfriday-carousel" data-slide="next"><img width="720" height="480" alt="Installation of decorated doors representing different sins, with projected imagery" src="img/projects/goodfriday-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#goodfriday-carousel" data-slide="next"><img width="720" height="480" alt="Previsualization of installation using SketchUp" src="img/projects/goodfriday-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#goodfriday-carousel" data-slide="next"><img width="720" height="480" alt="Mixed media collage representing war, anger and rage" src="img/projects/goodfriday-3.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#goodfriday-carousel" data-slide="next"><img width="720" height="480" alt="Mixed media piece representing modern day slavery" src="img/projects/goodfriday-4.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#goodfriday-carousel" data-slide-to="0"><a href="img/projects/goodfriday-1.jpg">1</a></li>
+                                    <li data-target="#goodfriday-carousel" data-slide-to="1"><a href="img/projects/goodfriday-2.jpg">2</a></li>
+                                    <li data-target="#goodfriday-carousel" data-slide-to="2"><a href="img/projects/goodfriday-3.jpg">3</a></li>
+                                    <li data-target="#goodfriday-carousel" data-slide-to="3"><a href="img/projects/goodfriday-4.jpg">4</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="https://vimeo.com/63284808">1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Good Friday Experience</h3>
+                        <p><strong>Audiovisual Installation</strong> for <a href="http://discovergrace.com">Grace</a></p>
+                    </header>
+
+                    <p>I worked with Chad Wyatt, Director of Worship at Grace Church Orlando, to create a unique art experience for Grace's multisensory Good Friday service. My role included previsualization and setup of the installation of doors and projected imagery, and creation of the War and Slavery doors (with <a href="http://amyselikoff.com">Amy Selikoff</a>).</p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">SketchUp</li>
+                            <li class="label">Mixed Media</li>
+                            <li class="label">VDMX</li>
+                        </ul>
+                    </footer>
+                </section>
+
+            </div>
+
+            <div class="row-fluid">
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="beautifulchaos-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#beautifulchaos-carousel" data-slide="next"><img width="720" height="480" alt="GPGPU techniques used to create a dynamic particle system" src="img/projects/beautifulchaos-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#beautifulchaos-carousel" data-slide="next"><img width="720" height="480" alt="Custom application development using Cinder (creative coding C++ / OpenGL framework)" src="img/projects/beautifulchaos-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#beautifulchaos-carousel" data-slide="next"><img width="720" height="480" alt="The Leap Motion Controller enables high fidelity, low-latency gestural input in this creative experimental art application" src="img/projects/beautifulchaos-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#beautifulchaos-carousel" data-slide-to="0"><a href="img/projects/beautifulchaos-1.jpg">1</a></li>
+                                    <li data-target="#beautifulchaos-carousel" data-slide-to="1"><a href="img/projects/beautifulchaos-2.jpg">2</a></li>
+                                    <li data-target="#beautifulchaos-carousel" data-slide-to="2"><a href="img/projects/beautifulchaos-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="http://www.youtube.com/watch?v=tww2SZgkPGI">1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Beautiful Chaos</h3>
+                        <p><strong>Experimental Art App</strong> for <a href="http://nathanselikoff.com">my fine art practice</a></p>
+                    </header>
+
+                    <p>Using advanced GPU processing techniques with the Cinder framework, I created this experimental art app that allows the user to interact with a million shifting and swirling colored points by waving their hands in the air. <a href="http://beautifulchaosapp.com">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Cinder</li>
+                            <li class="label">Leap Motion Controller</li>
+                            <li class="label">C++</li>
+                            <li class="label">OpenGL</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="spookyorgan-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#spookyorgan-carousel" data-slide="next"><img width="720" height="480" alt="Quartz Composer composition projected onto a pipe organ in a church" src="img/projects/spookyorgan-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#spookyorgan-carousel" data-slide="next"><img width="720" height="480" alt="Depression era video of children projected on organ pipes to accompany spooky organ music" src="img/projects/spookyorgan-2.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#spookyorgan-carousel" data-slide-to="0"><a href="img/projects/spookyorgan-1.jpg">1</a></li>
+                                    <li data-target="#spookyorgan-carousel" data-slide-to="1"><a href="img/projects/spookyorgan-2.jpg">2</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="https://vimeo.com/32104329">1</a></li>
+                                    <li><a href="https://vimeo.com/32104708">2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Spooky Organ Music</h3>
+                        <p><strong>Realtime Audiovisual Performance</strong> for <a href="http://wilsmithmusic.com">Wil Smith</a></p>
+                    </header>
+
+                    <p>In a collaboration with composer and performer Wil Smith, I created interpretive visuals for a spooky organ concert at First Presbyterian Church of Brooklyn, with a selection of classical and contemporary works. The realtime video was projected right onto the organ pipes and wall of the church. <a href="http://nathanselikoff.com/works/spooky-organ-music">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Processing</li>
+                            <li class="label">Quartz Composer</li>
+                            <li class="label">VDMX</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="sos-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#sos-carousel" data-slide="next"><img width="720" height="480" alt="Real time video installation made with C++ and OpenGL" src="img/projects/sos-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#sos-carousel" data-slide="next"><img width="720" height="480" alt="HDTV displays virtual world with stickpeople whose actions are determined by a finite state machine" src="img/projects/sos-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#sos-carousel" data-slide="next"><img width="720" height="480" alt="Whimsical movement in a gallery setting as the Society of Stickpeople evolves and unfolds on a projected screen" src="img/projects/sos-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#sos-carousel" data-slide-to="0"><a href="img/projects/sos-1.jpg">1</a></li>
+                                    <li data-target="#sos-carousel" data-slide-to="1"><a href="img/projects/sos-2.jpg">2</a></li>
+                                    <li data-target="#sos-carousel" data-slide-to="2"><a href="img/projects/sos-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="https://vimeo.com/4404156">1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Society of Stickpeople</h3>
+                        <p><strong>Realtime Video Installation</strong> for <a href="http://nathanselikoff.com">my fine art practice</a></p>
+                    </header>
+
+                    <p>Every 5 minutes, a fledgling virtual world awakens with stickpeople in this continuously running installation. The stickpeople go through a lifecycle from birth to death, following my simple rules of interaction that produce surprisingly complex behaviors. <a href="http://nathanselikoff.com/works/society-of-stickpeople">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">C++</li>
+                            <li class="label">OpenGL</li>
+                        </ul>
+                    </footer>
+                </section>
+
+            </div>
+
+            <div class="row-fluid">
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="wisdom-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#wisdom-carousel" data-slide="next"><img width="720" height="480" alt="A golden calf and a bearded woman start off this sermon series intro video" src="img/projects/wisdom-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#wisdom-carousel" data-slide="next"><img width="720" height="480" alt="Illustrating a perfect life through collage style motion graphics" src="img/projects/wisdom-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#wisdom-carousel" data-slide="next"><img width="720" height="480" alt="Torn magazine letters typography spelling wisdom" src="img/projects/wisdom-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#wisdom-carousel" data-slide-to="0"><a href="img/projects/wisdom-1.jpg">1</a></li>
+                                    <li data-target="#wisdom-carousel" data-slide-to="1"><a href="img/projects/wisdom-2.jpg">2</a></li>
+                                    <li data-target="#wisdom-carousel" data-slide-to="2"><a href="img/projects/wisdom-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                            <li>Videos:
+                                <ul class="inline">
+                                    <li><a href="https://vimeo.com/12038645">1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Wisdom Series Intro</h3>
+                        <p><strong>Motion Graphics</strong> for <a href="http://discovergrace.com">Grace</a></p>
+                    </header>
+
+                    <p>In a collaboration with <a href="http://amyselikoff.com">Amy Selikoff</a>, we wrote, recorded and edited a collage style stop motion intro video for Grace Church Orlando's "Wisdom" sermon series.</p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">Mixed Media</li>
+                            <li class="label">After Effects</li>
+                        </ul>
+                    </footer>
+                </section>
+
+                <section class="span4 project">
+
+                    <section class="project-images">
+                        <div id="processinfluence-carousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <a href="#processinfluence-carousel" data-slide="next"><img width="720" height="480" alt="Using SketchUp to previsualize a gallery exhibition" src="img/projects/processinfluence-1.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#processinfluence-carousel" data-slide="next"><img width="720" height="480" alt="Virtual scale drawing of an art installation" src="img/projects/processinfluence-2.jpg"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#processinfluence-carousel" data-slide="next"><img width="720" height="480" alt="Virtual art gallery previsualization" src="img/projects/processinfluence-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="inline">
+                            <li>Images:
+                                <ul class="inline">
+                                    <li data-target="#processinfluence-carousel" data-slide-to="0"><a href="img/projects/processinfluence-1.jpg">1</a></li>
+                                    <li data-target="#processinfluence-carousel" data-slide-to="1"><a href="img/projects/processinfluence-2.jpg">2</a></li>
+                                    <li data-target="#processinfluence-carousel" data-slide-to="2"><a href="img/projects/processinfluence-3.jpg">3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <header>
+                        <h3>Process &amp; Influence</h3>
+                        <p><strong>Previsualization</strong> for <a href="http://nathanselikoff.com">my fine art practice</a></p>
+                    </header>
+
+                    <p>I often use SketchUp to previsualize installations, and this was especially important for an exhibition on the scale of my solo show. Given the gallery dimensions and available movable walls and pedestals, I laid out the entire show before arriving. <a href="http://nathanselikoff.com/940/events/process-influence-exhibition-documentation">More info &raquo;</a></p>
+                    
+                    <footer>
+                        <ul class="inline">
+                            <li class="label">SketchUp</li>
+                        </ul>
+                    </footer>
+                </section>
+
+            </div>
+
+        </section>
+
+        <section class="container-fluid">
+            <header>
+                <h2 id="contact">Contact Me</h2>
+            </header>
+
+            <p>I would love to hear about your project&mdash;send me an email at <a href="mailto:nathan@awakeningstudios.com" onClick="trackOutboundLink(this, 'Contact', 'mailto:nathan@awakeningstudios.com'); return false;">nathan@awakeningstudios.com</a>, call me at <a href="tel:407-319-5198" onClick="trackOutboundLink(this, 'Contact (phone)', 'mailto:nathan@awakeningstudios.com'); return false;">407-319-5198</a>, or Skype me at nselikoff. You can also find me on Twitter <a href="http://twitter.com/nselikoff" onClick="trackOutboundLink(this, 'Outbound Links', 'twitter.com/nselikoff'); return false;">@nselikoff</a>.</p>
+
+            <footer>
+                <nav>
+                    <p><small><a href="#top">Back to top</a></small></p>
+                </nav>
+            </footer>
+        </section>
+
+        <footer>
+            <p>&copy;2013 Nathan Selikoff and collaborators. Freelance graphics programming, technical direction and interaction design for individuals and organizations. Sure, you can call me a creative coder if you want to :)</p>
+            <ul class="inline">
+                <li>More stuff:</li>
+                <li><a href="http://www.linkedin.com/in/nathanselikoff">LinkedIn</a></li>
+                <li><a href="http://nathanselikoff.com">The Art of Nathan Selikoff</a></li>
+                <li><a href="https://github.com/nselikoff">GitHub</a></li>
+                <li><a href="http://stackoverflow.com/users/170418/nselikoff">Stack Overflow</a></li>
+            </ul>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/termcycle.js"></script>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-2061361-2']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+    </body>
+</html>
