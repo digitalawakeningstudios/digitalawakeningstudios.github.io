@@ -1,0 +1,49 @@
+/* Additional Styles and Overrides */
+
+.project {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 12px solid #e7e7e7;
+    background-color: #e7e7e7;
+}
+
+h3 {
+    background-color: #c5d690;
+    display: inline-block;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.lead a, a.brand {
+    text-decoration: none;
+}
+
+.navbar .brand {
+    padding: 4px 4px 4px 20px;
+}
+
+body > footer {
+    border-top: 1px solid #d4d4d4;
+    margin-top: 1em;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.lead .btn {
+    width: 8em;
+}
+
+.project-images ul {
+    display: inline;
+}
+
+.project-images ul.inline > li {
+    padding-left: 0;
+}
+
+.carousel .item a:hover img {
+    opacity: 0.9;
+}
