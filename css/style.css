@@ -1,19 +1,41 @@
 /* Additional Styles and Overrides */
 
+body {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+li {
+  line-height: 24px;
+}
+
+p {
+  margin: 0 0 18px;
+}
+
+ul {
+  margin: 0 0 18px 36px;
+}
+
 .project {
     margin-top: 1em;
     margin-bottom: 2em;
-    border: 12px solid #e7e7e7;
-    background-color: #e7e7e7;
+    /*border: 12px solid #e7e7e7;*/
+    /*background-color: #e7e7e7;*/
+    font-size: 16px;
 }
 
 h2 {
-  margin-top: 30px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 0 36px 0;
 }
 
 h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 12px 0;
   font-weight: normal;
-  text-shadow: 0px 1px 2px #BBB;
 }
 
 a {
@@ -21,6 +43,33 @@ a {
 }
 
 a.btn {
+  text-decoration: none;
+}
+
+.table {
+}
+
+.table th, .table td {
+  border: none;
+  padding: 0 10px 0 0;
+  line-height: 20px;
+}
+
+.table th {
+  font-size: 10px;
+  text-align: right;
+  width: 10%;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #666;
+}
+
+.table td {
+  font-size: 14px;  
+}
+
+.carousel-control {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-decoration: none;
 }
 
@@ -66,43 +115,64 @@ body > footer {
   margin-bottom: 30px;
 }
 
-/* adapted from Bootstrap 2's docs site */
+blockquote {
+  /*margin-top: 60px;*/
+  font-size: 27px;
+  line-height: 1.25;
+  margin: 2em 0;
+  border: none;
+  padding: 0;
+}
+
+blockquote p {
+  margin-bottom: 0.5em;
+  font-size: 27px;
+}
+
+blockquote small {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
 .jumbotron {
-  position: relative;
-  padding: 40px 0;
-  color: #fff;
+  padding: 80px 0 40px 0;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-  background: #020031; /* Old browsers */
-  background: -moz-linear-gradient(45deg,  #020031 0%, #6d3353 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* IE10+ */
-  background: linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
 }
 .jumbotron h1 {
   font-size: 80px;
   font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.1;
 }
 .jumbotron p {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 1.25;
-  margin-bottom: 30px;
+  font-size: 28px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.availability {
+  text-align: right;
 }
 
 @media all and (max-width: 767px) {
   .jumbotron {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 40px 0 0 0;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .availability {
+    text-align: left;
+  }
+  h2 {
+    margin-top: 36px;
+  }
+  blockquote {
+    margin: 1em 0 2em 0;
   }
 }
