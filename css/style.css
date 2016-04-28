@@ -176,3 +176,7 @@ blockquote small {
     margin: 1em 0 2em 0;
   }
 }
+
+.carousel-control {
+  top: 50%;
+}
