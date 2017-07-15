@@ -1,0 +1,29 @@
+{
+  "name": "awakeningstudios.com",
+  "version": "1.0.0",
+  "description": "Digital Awakening Studios Portfolio Website",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1",
+    "scrollreveal": "^3.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io.git"
+  },
+  "author": "Nathan Selikoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io/issues"
+  },
+  "homepage": "http://awakeningstudios.com"
+}
