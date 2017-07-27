@@ -6729,6 +6729,10 @@ h3 {
 th {
   font-family: "PT Sans Narrow", Georgia, "Times New Roman", Times, serif;
 }
+blockquote {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
 #headline {
   margin-top: 66px;
 }
@@ -6743,7 +6747,7 @@ nav {
   margin-bottom: 22px;
 }
 #clients {
-  margin-top: 44px;
+  margin-top: 88px;
   margin-bottom: 22px;
 }
 #testimonial-2,
@@ -6759,15 +6763,25 @@ nav {
 #closing {
   padding-bottom: 22px;
 }
-#benefits {
-  padding: 22px 0;
+#benefits .benefit {
+  margin-top: 88px;
 }
-#benefits li {
-  margin: 11px 0;
+#benefits .benefit p {
+  margin-bottom: 0;
 }
 #projects {
   font-size: 14px;
 }
 .project {
   margin-top: 22px;
+  margin-bottom: 88px;
+}
+@media (min-width: 992px) {
+  .project {
+    margin-bottom: 0;
+  }
+}
+.project-row {
+  margin-top: 44px;
+  margin-bottom: 44px;
 }

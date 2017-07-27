@@ -9,6 +9,11 @@ th {
 	font-family: @font-family-serif;
 }
 
+blockquote {
+	margin-top: @line-height-computed;
+	margin-bottom: @line-height-computed;
+}
+
 #headline {
 	margin-top: @line-height-computed * 3;
 }
@@ -26,15 +31,11 @@ nav {
 	margin-bottom: @line-height-computed;
 }
 
-.headshot {
-	// margin: @line-height-computed 0;
-}
-
 #testimonial-1 {
 }
 
 #clients {
-	margin-top: @line-height-computed * 2;
+	margin-top: @line-height-computed * 4;
 	margin-bottom: @line-height-computed;
 }
 
@@ -44,8 +45,6 @@ nav {
 }
 
 #reinforcement, #closing {
-	// color: #fff;
-	// background-color: @brand-secondary;
 	margin-top: @line-height-computed;
 	margin-bottom: @line-height-computed;
 }
@@ -55,16 +54,18 @@ nav {
 }
 
 #benefits {
-	// color: @gray-dark;
-	// background-color: #fff;
-	padding: @line-height-computed 0;
-	li {
-		margin: @line-height-computed * 0.5 0;
+	.benefits-row {
+		// margin-top: @line-height-computed * 2;
+		// margin-bottom: @line-height-computed * 3;
 	}
-}
+	.benefit {
+		margin-top: @line-height-computed * 4;
+		// margin-bottom: @line-height-computed * 3;
 
-#benefits, #projects {
-	// padding-top: 44px;
+		p {
+			margin-bottom: 0;
+		}
+	}
 }
 
 #projects {
@@ -73,5 +74,16 @@ nav {
 
 .project {
 	margin-top: @line-height-computed;
+	margin-bottom: @line-height-computed * 4;
 }
 
+@media (min-width: @screen-md-min) {
+	.project {
+		margin-bottom: 0;
+	}
+}
+
+.project-row {
+	margin-top: @line-height-computed * 2;
+	margin-bottom: @line-height-computed * 2;
+}
