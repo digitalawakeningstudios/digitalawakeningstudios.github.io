@@ -1,0 +1,26 @@
+{
+  "name": "awakeningstudios.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io/issues"
+  },
+  "homepage": "https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "9.7.4",
+    "postcss-cli": "7.1.0",
+    "postcss-import": "12.0.1",
+    "purgecss": "2.0.6",
+    "tailwindcss": "1.2.0"
+  }
+}
