@@ -13,6 +13,7 @@ module.exports = {
       '2xl': '2.375rem', // 38 px
       '3xl': '3.1875rem', // 51 px
       '4xl': '4.1875rem', // 67 px
+      '5xl': '5.375rem', // 86 px
     },
     extend: {
       colors: {

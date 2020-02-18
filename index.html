@@ -3,13 +3,18 @@ layout: default
 title: "Interactive Experience Developer"
 ---
 
-<header class="container mx-auto px-6 pt-8">
-  <div class="grid grid-cols-1 lg:grid-cols-12">
-    <div class="flex flex-col items-center">
-      <img class="w-56 rounded-full" src="/assets/img/nathan-headshot-yellow-blue.png">
+<header class="mx-auto px-6 pt-8 md:max-w-screen-md lg:max-w-screen-lg">
+  <div class="grid grid-cols-1 md:grid-cols-8 md:gap-6 lg:grid-cols-12">
+    <div class="md:col-span-2 lg:col-span-3 flex flex-col items-center">
+      <img class="rounded-full"
+           srcset="/assets/img/nathan-headshot-yellow-blue-240w.png,
+                   /assets/img/nathan-headshot-yellow-blue-480w.png 2x"
+           src="/assets/img/nathan-headshot-yellow-blue-480w.png">
       <p class="text-sm pt-4">Hi, I'm Nathan Selikoff!</p>
     </div>
-    <h1 class="font-mono text-indigo-300 text-2xl mt-8 leading-tight">I help design teams bring interactive experiences to life</h1>
+    <div class="md:col-span-6 lg:col-span-9 mt-8 md:mt-0">
+      <h1 class="font-mono text-indigo-300 text-2xl md:text-3xl lg:text-4xl leading-tight">I help design teams bring interactive experiences to life</h1>
+    </div>
   </div>
 </header>
 
@@ -17,50 +22,85 @@ title: "Interactive Experience Developer"
   Scrolling portfolio...
 </section>
 
-<section class="container mx-auto px-6">
-  <h2 class="font-mono text-accent text-xl leading-tight mb-12">With over 20 years in production environments, here are some of my creative coding specialties:</h2>
-  <div class="mb-12">
-    <img class="rounded-md mb-4" src="http://placehold.it/328x189">
-    <div>
-      <p class="text-xl mb-2">Cross-platform 2D/3D graphics programming</p>
-      <p>OpenGL, WebGL; Cinder, openFrameworks; C++, JavaScript; web or desktop</p>
+<section class="mx-auto px-6 md:max-w-screen-md lg:max-w-screen-lg">
+  <h2 class="mb-8 font-mono text-accent text-xl lg:text-2xl leading-tight">With over 20 years in production environments, here are some of my creative coding specialties:</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-8 sm:gap-6 lg:grid-cols-12">
+    <div class="sm:col-span-4 lg:col-start-2 mb-8">
+      <img class="rounded-md mb-4"
+           srcset="http://placehold.it/348x200,
+                   http://placehold.it/696x400 2x"
+           src="http://placehold.it/696x400">
+      <div>
+        <p class="text-xl mb-2">Cross-platform 2D/3D graphics programming</p>
+        <p>OpenGL, WebGL; Cinder, openFrameworks; C++, JavaScript; web or desktop</p>
+      </div>
     </div>
-  </div>
-  <div class="mb-12">
-    <img class="rounded-md mb-4" src="http://placehold.it/328x189">
-    <div>
-      <p class="text-xl mb-2">Gesture, multi-touch, motion and sensors</p>
-      <p>Kinect, Leap Motion, TUIO, infrared, cameras, projection, low-level gesture recognition</p>
+    <div class="sm:col-span-4 lg:col-start-7 mb-8">
+      <img class="rounded-md mb-4"
+           srcset="http://placehold.it/348x200,
+                   http://placehold.it/696x400 2x"
+           src="http://placehold.it/696x400">
+      <div>
+        <p class="text-xl mb-2">Gesture, multi-touch, motion and sensors</p>
+        <p>Kinect, Leap Motion, TUIO, infrared, cameras, projection, low-level gesture recognition</p>
+      </div>
     </div>
-  </div>
-  <div class="mb-12">
-    <img class="rounded-md mb-4" src="http://placehold.it/328x189">
-    <div>
-      <p class="text-xl mb-2">Interactive data visualization</p>
-      <p>Data collection, cleaning and analysis; design and prototyping; production builds with d3, three.js</p>
+    <div class="sm:col-span-4 lg:col-start-2 mb-8">
+      <img class="rounded-md mb-4"
+           srcset="http://placehold.it/348x200,
+                   http://placehold.it/696x400 2x"
+           src="http://placehold.it/696x400">
+      <div>
+        <p class="text-xl mb-2">Interactive data visualization</p>
+        <p>Data collection, cleaning and analysis; design and prototyping; production builds with d3, three.js</p>
+      </div>
     </div>
-  </div>
-  <div class="mb-12">
-    <img class="rounded-md mb-4" src="http://placehold.it/328x189">
-    <div>
-      <p class="text-xl mb-2">Real-time geospatial data pipelines</p>
-      <p>Spatiotemporal data, OpenStreetMap, Google Maps API, Mapbox GL, application architecture, devops</p>
+    <div class="sm:col-span-4 lg:col-start-7 mb-8">
+      <img class="rounded-md mb-4"
+           srcset="http://placehold.it/348x200,
+                   http://placehold.it/696x400 2x"
+           src="http://placehold.it/696x400">
+      <div>
+        <p class="text-xl mb-2">Real-time geospatial data pipelines</p>
+        <p>Spatiotemporal data, OpenStreetMap, Google Maps API, Mapbox GL, application architecture, devops</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="mt-8 bg-gray-900 container mx-auto p-6">
-  <h2 class="font-mono text-accent text-xl leading-tight mb-4">
-    Staffing up or expanding your capabilities?<br>
-    Let’s chat.
-  </h2>
-  <div class="text-lg flex justify-between mb-8">
-    <p><a href="mailto:nathan@awakeningstudios.com">Email</a></p>
-    <p><a href="https://twitter.com/nselikoff">Twitter</a></p>
-    <p><a href="https://www.linkedin.com/in/nathanselikoff/">LinkedIn</a></p>
-    <p><a href="https://github.com/nselikoff">GitHub</a></p>
+<section class="bg-gray-900">
+  <div class="mt-8 mx-auto p-6 md:max-w-screen-md lg:max-w-screen-lg">
+    <h2 class="font-mono text-accent text-xl lg:text-2xl leading-tight mb-4">
+      Staffing up or expanding your capabilities?<br>
+      Let’s chat.
+    </h2>
+    <div class="text-lg mb-8">
+      <p>
+        <a class="mr-3 underline" href="mailto:nathan@awakeningstudios.com">Email</a>
+        <a class="mr-3 underline" href="https://twitter.com/nselikoff">Twitter</a>
+        <a class="mr-3 underline" href="https://www.linkedin.com/in/nathanselikoff/">LinkedIn</a>
+        <a class="mr-3 underline" href="https://github.com/nselikoff">GitHub</a>
+      </p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-12 sm:gap-6">
+      <div class="sm:col-span-4 mb-8">
+        <img class="rounded-md"
+             srcset="http://placehold.it/327x327,
+                     http://placehold.it/654x654 2x"
+             src="http://placehold.it/654x654">
+      </div>
+      <div class="sm:col-span-4 mb-8">
+        <img class="rounded-md"
+             srcset="http://placehold.it/327x327,
+                     http://placehold.it/654x654 2x"
+             src="http://placehold.it/654x654">
+      </div>
+      <div class="sm:col-span-4 mb-8">
+        <img class="rounded-md"
+             srcset="http://placehold.it/327x327,
+                     http://placehold.it/654x654 2x"
+             src="http://placehold.it/654x654">
+      </div>
+    </div>
   </div>
-  <img class="mb-8 rounded-md" src="http://placehold.it/328x328">
-  <img class="mb-8 rounded-md" src="http://placehold.it/328x328">
-  <img class="rounded-md" src="http://placehold.it/328x328">
 </section>
