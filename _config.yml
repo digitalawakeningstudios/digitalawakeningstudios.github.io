@@ -11,3 +11,20 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+    order:
+      - why-war-video-wall.html
+      - sfmoma-kiosk.html
+      - t-mobile-video-wall.html
+      - omnimodal-dashboard.html
+      - asia-society-data-viz.html
+      - thousand-faces-of-form-live-visuals.html
+      - four-dimensions-live-visuals.html
+      - new-music-miami-live-visuals.html
+      - discovery-place-interactive-installation.html
+      - anne-spalter-visual-effects-plugins.html
+      - beautiful-chaos-leap-motion.html
