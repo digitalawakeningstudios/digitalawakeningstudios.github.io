@@ -1,6 +1,10 @@
 ---
 layout: default
-title: "Interactive Experience Developer"
+title: Interactive Experience Developer
+greeting: Hi, I'm Nathan Selikoff!
+headline: I help design teams bring interactive experiences to life
+specialtiesHeadline: "With over 20 years in production environments, here are some of my creative coding specialties:"
+footerHeadline: Staffing up or expanding your capabilities? Let’s chat.
 ---
 
 <header class="mx-auto px-6 pt-8 md:max-w-screen-md lg:max-w-screen-lg">
@@ -10,76 +14,53 @@ title: "Interactive Experience Developer"
            srcset="/assets/img/nathan-headshot-yellow-blue-240w.png,
                    /assets/img/nathan-headshot-yellow-blue-480w.png 2x"
            src="/assets/img/nathan-headshot-yellow-blue-480w.png">
-      <p class="text-sm pt-4">Hi, I'm Nathan Selikoff!</p>
+      <p class="text-sm pt-4">{{ page.greeting }}</p>
     </div>
     <div class="md:col-span-6 lg:col-span-9 mt-8 md:mt-0">
-      <h1 class="font-mono text-indigo-300 text-2xl md:text-3xl lg:text-4xl leading-tight">I help design teams bring interactive experiences to life</h1>
+      <h1 class="font-mono text-indigo-300 text-2xl md:text-3xl lg:text-4xl leading-tight">{{ page.headline }}</h1>
     </div>
   </div>
 </header>
 
-<section class="my-8 bg-gray-900 h-64">
-  Scrolling portfolio...
+<section class="my-8 overflow-x-scroll">
+  <div class="flex items-end">
+    {% for category in site.data.portfolio %}
+      {% assign outer_forloop = forloop %}
+      {% for item in category.items %}
+        {% include portfolio-item.html %}
+      {% endfor %}
+    {% endfor %}
+  </div>
 </section>
 
 <section class="mx-auto px-6 md:max-w-screen-md lg:max-w-screen-lg">
-  <h2 class="mb-8 font-mono text-accent text-xl lg:text-2xl leading-tight">With over 20 years in production environments, here are some of my creative coding specialties:</h2>
+  <h2 class="mb-8 font-mono text-accent text-xl lg:text-2xl leading-tight">{{ page.specialtiesHeadline }}</h2>
   <div class="grid grid-cols-1 sm:grid-cols-8 sm:gap-6 lg:grid-cols-12">
-    <div class="sm:col-span-4 lg:col-start-2 mb-8">
-      <img class="rounded-md mb-4"
-           srcset="http://placehold.it/348x200,
-                   http://placehold.it/696x400 2x"
-           src="http://placehold.it/696x400">
-      <div>
-        <p class="text-xl mb-2">Cross-platform 2D/3D graphics programming</p>
-        <p>OpenGL, WebGL; Cinder, openFrameworks; C++, JavaScript; web or desktop</p>
-      </div>
-    </div>
-    <div class="sm:col-span-4 lg:col-start-7 mb-8">
-      <img class="rounded-md mb-4"
-           srcset="http://placehold.it/348x200,
-                   http://placehold.it/696x400 2x"
-           src="http://placehold.it/696x400">
-      <div>
-        <p class="text-xl mb-2">Gesture, multi-touch, motion and sensors</p>
-        <p>Kinect, Leap Motion, TUIO, infrared, cameras, projection, low-level gesture recognition</p>
-      </div>
-    </div>
-    <div class="sm:col-span-4 lg:col-start-2 mb-8">
-      <img class="rounded-md mb-4"
-           srcset="http://placehold.it/348x200,
-                   http://placehold.it/696x400 2x"
-           src="http://placehold.it/696x400">
-      <div>
-        <p class="text-xl mb-2">Interactive data visualization</p>
-        <p>Data collection, cleaning and analysis; design and prototyping; production builds with d3, three.js</p>
-      </div>
-    </div>
-    <div class="sm:col-span-4 lg:col-start-7 mb-8">
-      <img class="rounded-md mb-4"
-           srcset="http://placehold.it/348x200,
-                   http://placehold.it/696x400 2x"
-           src="http://placehold.it/696x400">
-      <div>
-        <p class="text-xl mb-2">Real-time geospatial data pipelines</p>
-        <p>Spatiotemporal data, OpenStreetMap, Google Maps API, Mapbox GL, application architecture, devops</p>
-      </div>
-    </div>
+    {% for specialty in site.data.specialties %}
+      {% include specialty.html %}
+    {% endfor %}
   </div>
 </section>
 
 <section class="bg-gray-900">
   <div class="mt-8 mx-auto p-6 md:max-w-screen-md lg:max-w-screen-lg">
     <h2 class="font-mono text-accent text-xl lg:text-2xl leading-tight mb-4">
-      Staffing up or expanding your capabilities?<br>
-      Let’s chat.
+      {{ page.footerHeadline }}
     </h2>
     <div class="text-lg mb-8">
       <p>
-        <a class="mr-3 underline" href="mailto:nathan@awakeningstudios.com">Email</a>
-        <a class="mr-3 underline" href="https://twitter.com/nselikoff">Twitter</a>
-        <a class="mr-3 underline" href="https://www.linkedin.com/in/nathanselikoff/">LinkedIn</a>
-        <a class="mr-3 underline" href="https://github.com/nselikoff">GitHub</a>
+        <a class="mr-3 underline" href="mailto:nathan@awakeningstudios.com">
+          Email
+        </a>
+        <a class="mr-3 underline" href="https://twitter.com/nselikoff">
+          Twitter
+        </a>
+        <a class="mr-3 underline" href="https://www.linkedin.com/in/nathanselikoff/">
+          LinkedIn
+        </a>
+        <a class="mr-3 underline" href="https://github.com/nselikoff">
+          GitHub
+        </a>
       </p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-12 sm:gap-6">

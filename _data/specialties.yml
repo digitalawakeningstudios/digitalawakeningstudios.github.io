@@ -1,0 +1,16 @@
+- title: Cross-platform 2D/3D graphics programming
+  body: OpenGL, WebGL; Cinder, openFrameworks; C++, JavaScript; web or desktop
+  image: http://placehold.it/348x200
+  image2x: http://placehold.it/696x400
+- title: Gesture, multi-touch, motion and sensors
+  body: Kinect, Leap Motion, TUIO, infrared, cameras, projection, low-level gesture recognition
+  image: http://placehold.it/348x200
+  image2x: http://placehold.it/696x400
+- title: Interactive data visualization
+  body: Data collection, cleaning and analysis; design and prototyping; production builds with d3, three.js
+  image: http://placehold.it/348x200
+  image2x: http://placehold.it/696x400
+- title: Real-time geospatial data pipelines
+  body: Spatiotemporal data, OpenStreetMap, Google Maps API, Mapbox GL, application architecture, devops
+  image: http://placehold.it/348x200
+  image2x: http://placehold.it/696x400
