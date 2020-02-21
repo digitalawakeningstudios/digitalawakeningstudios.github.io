@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="bg-indigo-700">
-  <header class="flex justify-between mx-auto md:max-w-screen-md lg:max-w-screen-lg">
+  <header class="flex justify-between mx-auto">
     <div class="flex flex-col justify-center p-6">
-      <h1 class="font-mono text-indigo-300 text-xl md:text-3xl lg:text-4xl leading-tight">{{ page.title }}</h1>
-      <h2 class="font-mono text-indigo-200 text-lg md:text-3xl lg:text-4xl leading-tight">{{ page.subtitle }}</h2>
+      <h1 class="font-mono text-indigo-300 text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight">{{ page.title }}</h1>
+      <h2 class="font-mono text-indigo-200 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight">{{ page.subtitle }}</h2>
     </div>
     <nav class="flex flex-col justify-center">
       <div class="bg-gray-900 w-10 h-10 mb-2">
@@ -36,4 +36,60 @@ layout: default
   </header>
 </div>
 
-{{ content }}
+<div class="mx-auto lg:pl-6 lg:flex lg:items-start">
+
+  {% if page.media %}
+    <div class="relative flex-grow">
+      {% for item in page.media %}
+        {% if item.type == "image" %}
+          <img data-media-id="{{ forloop.index0 }}" class="w-full {% unless forloop.first %}hidden{% endunless %}"
+               srcset="{{ item.src }},
+                       {{ item.src2x }} 2x"
+               src="{{ item.src2x }}">
+        {% endif %}
+      {% endfor %}
+      <div class="absolute bottom-0 left-0 w-full flex justify-between opacity-75">
+        <div onclick="prevMedia()" id="media-prev" class="bg-gray-900 w-10 h-10">prev</div>
+        <div onclick="nextMedia()" class="bg-gray-900 w-10 h-10">next</div>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="grid grid-cols-4 col-gap-6 row-gap-4 p-6 project-details flex-grow-0">
+    <div class="col-span-1 text-right text-accent text-sm font-bold">Category</div>
+    <div class="col-span-3">{{ page.category }}</div>
+    <div class="col-span-1 text-right text-accent text-sm font-bold">Agency</div>
+    <div class="col-span-3">{{ page.agency }}</div>
+    <div class="col-span-1 text-right text-accent text-sm font-bold">Client</div>
+    <div class="col-span-3">{{ page.client }}</div>
+    <div class="col-span-1 text-right text-accent text-sm font-bold">Tech</div>
+    <div class="col-span-3">{{ page.tech }}</div>
+    <div class="col-span-1 text-right text-accent text-sm font-bold">Role</div>
+    <div class="col-span-3">{{ content }}</div>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  let mediaId = 0;
+  let media = [];
+
+  const prevMedia = () => {
+    mediaId -= 1;
+    if (mediaId < 0) mediaId = media.length - 1;
+
+    media.forEach((el) => el.classList.add("hidden"));
+    document.querySelector(`[data-media-id="${mediaId}"]`).classList.remove("hidden");
+  };
+
+  const nextMedia = () => {
+    mediaId = (mediaId + 1) % media.length;
+
+    media.forEach((el) => el.classList.add("hidden"));
+    document.querySelector(`[data-media-id="${mediaId}"]`).classList.remove("hidden");
+  };
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    media = document.querySelectorAll('[data-media-id');
+  });
+</script>

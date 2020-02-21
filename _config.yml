@@ -17,14 +17,14 @@ collections:
     output: true
     permalink: /:collection/:name
     order:
-      - why-war-video-wall.html
-      - sfmoma-kiosk.html
-      - t-mobile-video-wall.html
-      - omnimodal-dashboard.html
-      - asia-society-data-viz.html
-      - thousand-faces-of-form-live-visuals.html
-      - four-dimensions-live-visuals.html
-      - new-music-miami-live-visuals.html
-      - discovery-place-interactive-installation.html
-      - anne-spalter-visual-effects-plugins.html
-      - beautiful-chaos-leap-motion.html
+      - why-war-video-wall.md
+      - sfmoma-kiosk.md
+      - t-mobile-video-wall.md
+      - omnimodal-dashboard.md
+      - asia-society-data-viz.md
+      - thousand-faces-of-form-live-visuals.md
+      - four-dimensions-live-visuals.md
+      - new-music-miami-live-visuals.md
+      - discovery-place-interactive-installation.md
+      - anne-spalter-visual-effects-plugins.md
+      - beautiful-chaos-leap-motion.md

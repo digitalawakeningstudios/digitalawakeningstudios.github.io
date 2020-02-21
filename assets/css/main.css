@@ -3,6 +3,20 @@
 
 @tailwind base;
 
+@screen lg {
+  .project-details {
+    width: 400px;
+  }
+}
+
+.project-details p {
+  @apply mb-4;
+}
+
+.project-details a {
+  @apply underline;
+}
+
 @tailwind components;
 
 @tailwind utilities;
