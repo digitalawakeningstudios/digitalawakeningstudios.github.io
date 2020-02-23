@@ -6,8 +6,10 @@ category: Exhibit & Retail
 
 title: Belle & Wissell
 subtitle: Networked Video Wall
-agency: Belle & Wissell
+agency: Belle & Wissell, Co.
+agencyLink: http://bwco.info/
 client: Flying Heritage Collection
+clientLink: http://www.flyingheritage.com/
 tech: Cinder, OpenGL, C++, Ember.js, d3.js, JavaScript, node.js
 
 thumb: http://placehold.it/256x353
@@ -24,6 +26,6 @@ media:
     vimeoId: 205695030
 ---
 
-Working off of Belle & Wissell’s excellent wireframes and art direction, I created the software and fleshed out the UX for this massive interactive wall (eight 98-inch large-scale touchscreens).
+Working off of Belle & Wissell’s excellent wireframes and art direction, I created the software and fleshed out the UX for this massive interactive wall (eight 98-inch large-scale touchscreens). Interesting challenges included a networked "attract mode", and rendering HTML and CSS based content in a C++ and OpenGL wrapper app to maintain 60+ fps performance and finesse multi-touch gesture handling.
 
-[More info & full credits on bwco.info »](https://google.com)
+[More info & full credits on bwco.info »](http://www.bwco.info/work/whywar/)

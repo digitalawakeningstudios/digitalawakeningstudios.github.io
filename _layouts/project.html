@@ -73,12 +73,32 @@ layout: default
   <div class="grid grid-cols-4 col-gap-6 row-gap-4 p-6 project-details flex-grow-0">
     <div class="col-span-1 text-right text-accent text-sm font-bold">Category</div>
     <div class="col-span-3">{{ page.category }}</div>
-    <div class="col-span-1 text-right text-accent text-sm font-bold">Agency</div>
-    <div class="col-span-3">{{ page.agency }}</div>
-    <div class="col-span-1 text-right text-accent text-sm font-bold">Client</div>
-    <div class="col-span-3">{{ page.client }}</div>
+
+    {% if page.agency %}
+      <div class="col-span-1 text-right text-accent text-sm font-bold">Agency</div>
+      <div class="col-span-3">
+        {% if page.agencyLink %}
+          <a href="{{ page.agencyLink }}">{{ page.agency }}</a>
+        {% else %}
+          {{ page.agency }}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if page.client %}
+      <div class="col-span-1 text-right text-accent text-sm font-bold">Client</div>
+      <div class="col-span-3">
+        {% if page.clientLink %}
+          <a href="{{ page.clientLink }}">{{ page.client }}</a>
+        {% else %}
+          {{ page.client }}
+        {% endif %}
+      </div>
+    {% endif %}
+
     <div class="col-span-1 text-right text-accent text-sm font-bold">Tech</div>
     <div class="col-span-3">{{ page.tech }}</div>
+
     <div class="col-span-1 text-right text-accent text-sm font-bold">Role</div>
     <div class="col-span-3">{{ content }}</div>
   </div>
