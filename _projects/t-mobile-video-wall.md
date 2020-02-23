@@ -1,7 +1,9 @@
 ---
 layout: project
 
+categoryId: 1
 category: Exhibit & Retail
+
 title: Razorfish
 subtitle: Multi-Touch Video Wall
 

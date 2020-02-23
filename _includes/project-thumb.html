@@ -1,10 +1,10 @@
 <div class="flex-shrink-0">
-  {% if project.show-category %}
-    <span class="bg-gray-900 text-accent font-mono text-lg inline-block px-4 py-2 {% if forloop.first %}ml-6{% endif %} mb-4">
+  {% if forloop.first %}
+    <span class="bg-gray-900 text-accent font-mono text-lg inline-block px-4 py-2 {% if outer_forloop.first and forloop.first %}ml-6{% endif %} mb-4">
       {{ project.category }}
     </span>
   {% endif %}
-  <div class="flex items-end pt-2 pr-2 {% if forloop.first %}pl-6{% endif %} {% if forloop.last %}pr-6{% endif %} bg-gray-900">
+  <div class="flex items-end pt-2 pr-2 {% if outer_forloop.first and forloop.first %}pl-6{% endif %} {% if outer_forloop.last and forloop.last %}pr-6{% endif %} bg-gray-900">
     <a href="{{ project.url }}">
       <div class="relative">
         <img class="rounded-md"

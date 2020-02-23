@@ -1,8 +1,9 @@
 ---
 layout: project
-show-category: true
 
+categoryId: 3
 category: Performance
+
 title: Dmitri Tymoczko
 subtitle: Live Visuals for Symphony
 

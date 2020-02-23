@@ -1,7 +1,9 @@
 ---
 layout: project
 
+categoryId: 3
 category: Performance
+
 title: Wil Smith
 subtitle: Interactive Art For Live Organ
 

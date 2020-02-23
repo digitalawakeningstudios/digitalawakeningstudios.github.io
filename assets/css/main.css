@@ -3,6 +3,12 @@
 
 @tailwind base;
 
+@screen sm {
+  .project-details {
+    width: 300px;
+  }
+}
+
 @screen lg {
   .project-details {
     width: 400px;

@@ -1,7 +1,9 @@
 ---
 layout: project
 
+categoryId: 2
 category: Data Viz & Web
+
 title: Schema
 subtitle: Interactive Data Visualization
 

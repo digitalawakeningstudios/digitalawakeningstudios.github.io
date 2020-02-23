@@ -1,7 +1,9 @@
 ---
 layout: project
 
+categoryId: 3
 category: Performance
+
 title: Keith Lay
 subtitle: Live Visuals for Orchestra and EWI
 

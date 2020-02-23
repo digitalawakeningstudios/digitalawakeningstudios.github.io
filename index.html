@@ -25,8 +25,12 @@ footerHeadline: Staffing up or expanding your capabilities? Let’s chat.
 
   <section class="my-8 overflow-x-scroll">
     <div class="flex items-end">
-      {% for project in site.projects %}
-        {% include project-thumb.html %}
+      {% assign projects_grouped = site.projects | group_by: 'categoryId' | sort: 'name' %}
+      {% for category in projects_grouped %}
+        {% assign outer_forloop = forloop %}
+        {% for project in category.items %}
+          {% include project-thumb.html %}
+        {% endfor %}
       {% endfor %}
     </div>
   </section>

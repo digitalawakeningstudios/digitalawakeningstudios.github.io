@@ -1,8 +1,9 @@
 ---
 layout: project
-show-category: true
 
+categoryId: 2
 category: Data Viz & Web
+
 title: Omnimodal
 subtitle: Real-Time Analytics Dashboard
 

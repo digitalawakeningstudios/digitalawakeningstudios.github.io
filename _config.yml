@@ -16,7 +16,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
-    order:
+    order: # also need to keep this in category order
       - why-war-video-wall.md
       - sfmoma-kiosk.md
       - t-mobile-video-wall.md
