@@ -21,9 +21,6 @@ This site is built using [Jekyll](https://jekyllrb.com) and [Tailwind CSS](https
 
 Assuming GitHub Pages is setup and you're on the master branch, `git push` will do it!
 
-## TODO
-* gather, edit and add additional images for specialties and footer
-
 ## Wishlist
 * left/right arrows for navigating through images
 * up/down arrows for navigating through projects

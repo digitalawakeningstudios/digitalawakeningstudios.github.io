@@ -4,7 +4,7 @@
       {{ project.category }}
     </span>
   {% endif %}
-  <div class="flex items-end pt-2 pr-2 {% if outer_forloop.first and forloop.first %}pl-6{% endif %} {% if outer_forloop.last and forloop.last %}pr-6{% endif %} bg-gray-900">
+  <div class="flex items-end pt-2 pr-2 {% if outer_forloop.first and forloop.first %}pl-6{% endif %} {% if outer_forloop.last and forloop.last %}pr-6{% endif %} bg-gray-900 opacity-90 hover:opacity-100">
     <a href="{{ project.url }}">
       <div class="relative">
         <img class="rounded-md"
