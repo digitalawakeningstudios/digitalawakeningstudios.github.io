@@ -1,8 +1,10 @@
-<div class="sm:col-span-4 {% cycle 'lg:col-start-2', 'lg:col-start-7' %} mb-8 sm:mb-4">
+<div class="sm:col-span-4 lg:col-start-3">
   <img class="rounded-md mb-4"
        srcset="{{ specialty.image }},
                {{ specialty.image2x }} 2x"
        src="{{ specialty.image2x }}">
+</div>
+<div class="sm:col-span-4 mb-8 sm:mb-4">
   <div>
     <p class="text-xl mb-2">{{ specialty.title }}</p>
     <p>{{ specialty.body }}</p>

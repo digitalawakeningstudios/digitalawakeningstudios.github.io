@@ -1,16 +1,20 @@
 - title: Cross-platform 2D/3D graphics programming
-  body: OpenGL, WebGL; Cinder, openFrameworks; C++, JavaScript; web or desktop
-  image: http://placehold.it/348x200
-  image2x: http://placehold.it/696x400
+  body: OpenGL, WebGL; Cinder, openFrameworks; C++, JavaScript; web or desktop (Electron, Awesomium)
+  image: /assets/img/specialties/cross-platform-2d-3d-graphics-programming@0.5x-80.jpg
+  image2x: /assets/img/specialties/cross-platform-2d-3d-graphics-programming-80.jpg
+- title: Parameterized 2D & 3D design systems
+  body: Blend data-driven and algorithmic design with art direction; output to video, hi-res imagery, or interactive
+  image: /assets/img/specialties/parameterized-design-systems@0.5x-80.jpg
+  image2x: /assets/img/specialties/parameterized-design-systems-80.jpg
 - title: Gesture, multi-touch, motion and sensors
   body: Kinect, Leap Motion, TUIO, infrared, cameras, projection, low-level gesture recognition
-  image: http://placehold.it/348x200
-  image2x: http://placehold.it/696x400
+  image: /assets/img/specialties/gesture-sensors@0.5x-80.jpg
+  image2x: /assets/img/specialties/gesture-sensors-80.jpg
 - title: Interactive data visualization
   body: Data collection, cleaning and analysis; design and prototyping; production builds with d3, three.js
-  image: http://placehold.it/348x200
-  image2x: http://placehold.it/696x400
+  image: /assets/img/specialties/interactive-data-viz@0.5x-80.jpg
+  image2x: /assets/img/specialties/interactive-data-viz-80.jpg
 - title: Real-time geospatial data pipelines
   body: Spatiotemporal data, OpenStreetMap, Google Maps API, Mapbox GL, application architecture, devops
-  image: http://placehold.it/348x200
-  image2x: http://placehold.it/696x400
+  image: /assets/img/specialties/real-time-geospatial-data@0.5x-80.jpg
+  image2x: /assets/img/specialties/real-time-geospatial-data-80.jpg
