@@ -11,16 +11,19 @@ agencyLink: http://dmitri.tymoczko.com/
 client: Kitchener-Waterloo Symphony
 tech: Processing, Syphon, VDMX, Korg nanoKONTROL 2
 
-thumb: http://placehold.it/256x353
-thumb2x: http://placehold.it/512x706
+thumb: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb-0.5x-80.jpg
+thumb2x: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb-80.jpg
 
 media:
   - type: image
-    src: http://placehold.it/900x600?text=Image+1
-    src2x: http://placehold.it/1800x1200?text=Image+1
+    src: /assets/img/projects/thousand-faces-of-form-live-visuals-01@0.5x-80.jpg
+    src2x: /assets/img/projects/thousand-faces-of-form-live-visuals-01-80.jpg
   - type: image
-    src: http://placehold.it/900x600?text=Image+2
-    src2x: http://placehold.it/1800x1200?text=Image+2
+    src: /assets/img/projects/thousand-faces-of-form-live-visuals-02@0.5x-80.jpg
+    src2x: /assets/img/projects/thousand-faces-of-form-live-visuals-02-80.jpg
+  - type: image
+    src: /assets/img/projects/thousand-faces-of-form-live-visuals-03@0.5x-80.jpg
+    src2x: /assets/img/projects/thousand-faces-of-form-live-visuals-03-80.jpg
 
 ---
 

@@ -12,16 +12,16 @@ client: Discovery Place
 clientLink: http://www.discoveryplace.org/
 tech: openFrameworks, OpenCV, OpenGL, C++, Kinect
 
-thumb: http://placehold.it/256x353
-thumb2x: http://placehold.it/512x706
+thumb: /assets/img/projects/discovery-place-interactive-installation-thumb-0.5x-80.jpg
+thumb2x: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg
 
 media:
   - type: image
-    src: http://placehold.it/900x600?text=Image+1
-    src2x: http://placehold.it/1800x1200?text=Image+1
+    src: /assets/img/projects/discovery-place-interactive-installation-01@0.5x-80.jpg
+    src2x: /assets/img/projects/discovery-place-interactive-installation-01-80.jpg
   - type: image
-    src: http://placehold.it/900x600?text=Image+2
-    src2x: http://placehold.it/1800x1200?text=Image+2
+    src: /assets/img/projects/discovery-place-interactive-installation-02@0.5x-80.jpg
+    src2x: /assets/img/projects/discovery-place-interactive-installation-02-80.jpg
   - type: youtube
     youtubeId: ZlwAcXJdEBI
 
@@ -29,6 +29,6 @@ media:
 
 Having just completed a residency at Discovery Place, artist Ivan Depeña hired me to do the programming for this commission, which accompanied the Van Gogh Alive exhibition at Discovery Place.
 
-Concept and Art Direction: Ivan Depeña.
+Concept and Art Direction: Ivan Depeña. Images and video courtesy Discovery Place.
 
-[More info »](https://science.discoveryplace.org/blog/dont-miss-the-opportunity-to-be-painted-in-van-goghs-signature-style?_ga=1.60518893.1155439651.1483371406)
+[More info »](https://science.discoveryplace.org/blog/dont-miss-the-opportunity-to-be-painted-in-van-goghs-signature-style)

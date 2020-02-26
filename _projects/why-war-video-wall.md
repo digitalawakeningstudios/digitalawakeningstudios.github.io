@@ -12,16 +12,16 @@ client: Flying Heritage Collection
 clientLink: http://www.flyingheritage.com/
 tech: Cinder, OpenGL, C++, Ember.js, d3.js, JavaScript, node.js
 
-thumb: http://placehold.it/256x353
-thumb2x: http://placehold.it/512x706
+thumb: /assets/img/projects/why-war-video-wall-thumb-0.5x-80.jpg
+thumb2x: /assets/img/projects/why-war-video-wall-thumb-80.jpg
 
 media:
   - type: image
-    src: http://placehold.it/900x600?text=Image+1
-    src2x: http://placehold.it/1800x1200?text=Image+1
+    src: /assets/img/projects/why-war-video-wall-01@0.5x-80.jpg
+    src2x: /assets/img/projects/why-war-video-wall-01-80.jpg
   - type: image
-    src: http://placehold.it/900x600?text=Image+2
-    src2x: http://placehold.it/1800x1200?text=Image+2
+    src: /assets/img/projects/why-war-video-wall-02@0.5x-80.jpg
+    src2x: /assets/img/projects/why-war-video-wall-02-80.jpg
   - type: vimeo
     vimeoId: 205695030
 ---

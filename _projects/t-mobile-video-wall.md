@@ -10,16 +10,19 @@ agency: Razorfish Emerging Experiences
 client: T-Mobile
 tech: Cinder, OpenGL, C++, Kinect
 
-thumb: http://placehold.it/256x353
-thumb2x: http://placehold.it/512x706
+thumb: /assets/img/projects/t-mobile-video-wall-thumb-0.5x-80.jpg
+thumb2x: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg
 
 media:
   - type: image
-    src: http://placehold.it/900x600?text=Image+1
-    src2x: http://placehold.it/1800x1200?text=Image+1
+    src: /assets/img/projects/t-mobile-video-wall-01@0.5x-80.jpg
+    src2x: /assets/img/projects/t-mobile-video-wall-01-80.jpg
   - type: image
-    src: http://placehold.it/900x600?text=Image+2
-    src2x: http://placehold.it/1800x1200?text=Image+2
+    src: /assets/img/projects/t-mobile-video-wall-02@0.5x-80.jpg
+    src2x: /assets/img/projects/t-mobile-video-wall-02-80.jpg
+  - type: image
+    src: /assets/img/projects/t-mobile-video-wall-03@0.5x-80.jpg
+    src2x: /assets/img/projects/t-mobile-video-wall-03-80.jpg
   - type: youtube
     youtubeId: MYcAiuX7OxM
   - type: vimeo
@@ -27,6 +30,8 @@ media:
 
 ---
 
-Razorfish hired me to join two other software developers to implement this large-scale touchscreen experience on a multi-monitor video wall for T-Mobile's flagship store in Times Square, the first of T-Mobile's "Signature Stores."
+Razorfish hired me to join two other software developers to implement a key large-scale touchscreen experience on a 12-monitor video wall for T-Mobile's flagship store in Times Square, the first of T-Mobile's "Signature Stores."
+
+My focus was the translation of the design comps and CMS content into a seamless multi-touch experience.
 
 Read more: [Redefining Retail with T-Mobile Times Square](https://www.digitalsignageconnection.com/redefining-retail-t-mobile-times-square#prettyPhoto)

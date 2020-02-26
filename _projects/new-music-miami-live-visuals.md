@@ -11,21 +11,25 @@ agencyLink: http://www.wilsmithmusic.com/
 client: New Music Miami Festival
 tech: Processing, VDMX
 
-thumb: http://placehold.it/256x353
-thumb2x: http://placehold.it/512x706
+thumb: /assets/img/projects/new-music-miami-live-visuals-thumb-0.5x-80.jpg
+thumb2x: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg
 
 media:
   - type: image
-    src: http://placehold.it/900x600?text=Image+1
-    src2x: http://placehold.it/1800x1200?text=Image+1
+    src: /assets/img/projects/new-music-miami-live-visuals-01@0.5x-80.jpg
+    src2x: /assets/img/projects/new-music-miami-live-visuals-01-80.jpg
   - type: image
-    src: http://placehold.it/900x600?text=Image+2
-    src2x: http://placehold.it/1800x1200?text=Image+2
+    src: /assets/img/projects/new-music-miami-live-visuals-02@0.5x-80.jpg
+    src2x: /assets/img/projects/new-music-miami-live-visuals-02-80.jpg
   - type: vimeo
     vimeoId: 393298790
 
 ---
 
-To accompany an evening length performance of new classical music for organ, Wil Smith composed a series of electronic works—interstitials—and asked me to craft some visuals for them. Using Processing and a minimal aesthetic, I created imagery that was projected onto the organ pipes at two concerts, in Miami and Brooklyn.
+To accompany an evening length performance of new classical music for organ, Wil Smith composed a series of electronic works — interstitials — and asked me to craft some visuals for them.
+
+Using Processing and a minimal aesthetic, I created imagery that was projected onto the organ pipes at two concerts, in Miami and Brooklyn.
+
+Subsequently, we have collaborated many times mixing live interactive visuals and both contemporary and classical music.
 
 [More info »](https://nathanselikoff.com/works/interstitials)

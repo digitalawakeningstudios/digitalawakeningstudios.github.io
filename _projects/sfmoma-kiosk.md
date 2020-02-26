@@ -12,21 +12,28 @@ client: SFMOMA
 clientLink: https://www.sfmoma.org/tickets/
 tech: Ember.js, d3.js, JavaScript, Electron
 
-thumb: http://placehold.it/256x353
-thumb2x: http://placehold.it/512x706
+thumb: /assets/img/projects/sfmoma-kiosk-thumb-0.5x-80.jpg
+thumb2x: /assets/img/projects/sfmoma-kiosk-thumb-80.jpg
 
 media:
   - type: image
-    src: http://placehold.it/900x600?text=Image+1
-    src2x: http://placehold.it/1800x1200?text=Image+1
+    src: /assets/img/projects/sfmoma-kiosk-01@0.5x-80.jpg
+    src2x: /assets/img/projects/sfmoma-kiosk-01-80.jpg
   - type: image
-    src: http://placehold.it/900x600?text=Image+2
-    src2x: http://placehold.it/1800x1200?text=Image+2
+    src: /assets/img/projects/sfmoma-kiosk-02@0.5x-80.jpg
+    src2x: /assets/img/projects/sfmoma-kiosk-02-80.jpg
+  - type: image
+    src: /assets/img/projects/sfmoma-kiosk-03@0.5x-80.jpg
+    src2x: /assets/img/projects/sfmoma-kiosk-03-80.jpg
   - type: vimeo
     vimeoId: 205695478
+  - type: vimeo
+    vimeoId: 393834540
 
 ---
 
-I created the custom software powering this unique touchscreen Table Experience that allows visitors of all abilities to explore stories behind the artists and artworks in the museum’s collection. To facilitate playtesting the core interactivity early on in the project while the content and design were still being finalized, I built an interactive demo from the wireframes that Belle & Wissell supplied.
+I created the custom software powering this unique touchscreen Table Experience that allows visitors of all abilities to explore stories behind the artists and artworks in the museum’s collection.
+
+To facilitate playtesting the core interactivity early on in the project while the content and design were still being finalized, I built an interactive demo from the wireframes that Belle & Wissell supplied.
 
 [More info & full credits on bwco.info »](http://www.bwco.info/work/gallery218/)

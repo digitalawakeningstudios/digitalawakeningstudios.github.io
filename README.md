@@ -28,6 +28,8 @@ Assuming GitHub Pages is setup and you're on the master branch, `git push` will 
   - main images: 1800x1200 and 900x600
 
 ## Wishlist
+* left/right arrows for navigating through images
+* up/down arrows for navigating through projects
 * when "closing" project page, link to proper scroll position on index (vertical and horizontal within portfolio items)
 * lazy load images
 * scroll L/R in thumbs should "settle" on an item nicely left-aligned
