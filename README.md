@@ -1,6 +1,6 @@
 # Creative Coding Portfolio Site
 
-This site is built using [Jekyll](https://jekyllrb.com) and [Tailwind CSS](https://tailwindcss.com) and deployed to [awakeningstudios.com](https://awakeningstudios.com) via GitHub Pages.
+This site is built using [Jekyll](https://jekyllrb.com) and [Tailwind CSS](https://tailwindcss.com) and deployed to [awakeningstudios.com](https://awakeningstudios.com) via Netlify.
 
 ## Prerequisites
 * Ruby (recommend rbenv on OS X) and bundler
@@ -19,9 +19,10 @@ This site is built using [Jekyll](https://jekyllrb.com) and [Tailwind CSS](https
 
 ## Deploy
 
-Assuming GitHub Pages is setup and you're on the master branch, `git push` will do it!
+Assuming Netlify is setup and you're on the master branch, `git push` will do it!
 
 ## Wishlist
+* add favicon
 * left/right arrows for navigating through images
 * up/down arrows for navigating through projects
 * when "closing" project page, link to proper scroll position on index (vertical and horizontal within portfolio items)
