@@ -12,7 +12,7 @@ client: Flying Heritage Collection
 clientLink: http://www.flyingheritage.com/
 tech: Cinder, OpenGL, C++, Ember.js, d3.js, JavaScript, node.js
 
-thumb: /assets/img/projects/why-war-video-wall-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/why-war-video-wall-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/why-war-video-wall-thumb-80.jpg
 
 media:

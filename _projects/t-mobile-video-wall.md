@@ -10,7 +10,7 @@ agency: Razorfish Emerging Experiences
 client: T-Mobile
 tech: Cinder, OpenGL, C++, Kinect
 
-thumb: /assets/img/projects/t-mobile-video-wall-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/t-mobile-video-wall-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg
 
 media:

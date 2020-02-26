@@ -11,7 +11,7 @@ agencyLink: https://omnimodal.io
 client: City of Orlando
 tech: Ruby on Rails, Ember.js, JavaScript, Java, d3, turf.js, AWS, Node.js, Adobe XD
 
-thumb: /assets/img/projects/omnimodal-dashboard-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/omnimodal-dashboard-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/omnimodal-dashboard-thumb-80.jpg
 
 media:

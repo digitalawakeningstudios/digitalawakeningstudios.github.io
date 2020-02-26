@@ -10,7 +10,7 @@ client: Nathan Selikoff
 clientLink: https://nathanselikoff.com
 tech: Cinder, OpenGL, C++, Leap Motion
 
-thumb: /assets/img/projects/beautiful-chaos-leap-motion-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/beautiful-chaos-leap-motion-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/beautiful-chaos-leap-motion-thumb-80.jpg
 
 media:

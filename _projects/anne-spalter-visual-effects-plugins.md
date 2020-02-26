@@ -10,7 +10,7 @@ client: Anne Spalter Studios
 clientLink: http://annespalter.com/
 tech: Quartz Composer, React.js, three.js, WebGL, HTML5, JavaScript, ExtendScript, FxFactory Pro, Adobe Creative Cloud
 
-thumb: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-80.jpg
 
 media:

@@ -22,10 +22,7 @@ This site is built using [Jekyll](https://jekyllrb.com) and [Tailwind CSS](https
 Assuming GitHub Pages is setup and you're on the master branch, `git push` will do it!
 
 ## TODO
-* handle video embeds for local mp4s
-* gather images and videos, edit for size, add to markdown
-  - thumbs: 512x706 and 256x353
-  - main images: 1800x1200 and 900x600
+* gather, edit and add additional images for specialties and footer
 
 ## Wishlist
 * left/right arrows for navigating through images

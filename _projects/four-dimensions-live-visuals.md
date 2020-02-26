@@ -10,7 +10,7 @@ agency: Keith Lay
 client: Orlando Philharmonic
 tech: Processing, Quartz Composer, TouchOSC, VDMX, Wiimote
 
-thumb: /assets/img/projects/four-dimensions-live-visuals-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/four-dimensions-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/four-dimensions-live-visuals-thumb-80.jpg
 
 media:

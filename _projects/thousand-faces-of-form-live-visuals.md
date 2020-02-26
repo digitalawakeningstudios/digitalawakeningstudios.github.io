@@ -11,7 +11,7 @@ agencyLink: http://dmitri.tymoczko.com/
 client: Kitchener-Waterloo Symphony
 tech: Processing, Syphon, VDMX, Korg nanoKONTROL 2
 
-thumb: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb-80.jpg
 
 media:

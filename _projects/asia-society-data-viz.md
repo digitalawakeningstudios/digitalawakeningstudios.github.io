@@ -11,7 +11,7 @@ agencyLink: http://schemadesign.com/
 client: Asia Society, Rhodium Group, Gist
 tech: d3.js, JavaScript, Angular, MongoDB, Node.js, GeoJSON, TopoJSON, QGIS, OpenStreetMap
 
-thumb: /assets/img/projects/asia-society-data-viz-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/asia-society-data-viz-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/asia-society-data-viz-thumb-80.jpg
 
 media:

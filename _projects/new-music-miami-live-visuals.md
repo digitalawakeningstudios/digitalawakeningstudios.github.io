@@ -11,7 +11,7 @@ agencyLink: http://www.wilsmithmusic.com/
 client: New Music Miami Festival
 tech: Processing, VDMX
 
-thumb: /assets/img/projects/new-music-miami-live-visuals-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/new-music-miami-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg
 
 media:

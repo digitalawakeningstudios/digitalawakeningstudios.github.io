@@ -12,7 +12,7 @@ client: SFMOMA
 clientLink: https://www.sfmoma.org/tickets/
 tech: Ember.js, d3.js, JavaScript, Electron
 
-thumb: /assets/img/projects/sfmoma-kiosk-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/sfmoma-kiosk-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/sfmoma-kiosk-thumb-80.jpg
 
 media:

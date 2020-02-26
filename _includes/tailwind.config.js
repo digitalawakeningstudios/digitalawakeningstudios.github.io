@@ -16,6 +16,9 @@ module.exports = {
       '5xl': '5.375rem', // 86 px
     },
     extend: {
+      boxShadow: {
+        'inner-strong': 'inset 0 0 50px 0px rgba(0, 0, 0, 0.6)',
+      },
       colors: {
         accent: '#C0C019',
         indigo: {
@@ -26,9 +29,13 @@ module.exports = {
           '500': '#6464ED',
           '600': '#5151E8',
           '700': '#3939DE',
+          '750': '#3232B6',
           '800': '#323290',
           '900': '#30306B',
         }
+      },
+      height: {
+        '14': '3.5rem',
       },
       opacity: {
         '80': '.8',

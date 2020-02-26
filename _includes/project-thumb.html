@@ -11,11 +11,18 @@
              srcset="{{ project.thumb }},
                      {{ project.thumb2x }} 2x"
              src="{{ project.thumb2x }}">
+        <div class="rounded-md absolute w-full h-full top-0 left-0 shadow-inner-strong"></div>
         <div class="bg-accent text-gray-900 p-4 absolute bottom-0 left-0 w-full opacity-90 rounded-b-md">
           <div class="font-mono text-lg mb-2">{{ project.title }}</div>
           <div class="text-sm font-bold">{{ project.subtitle }}</div>
         </div>
       </div>
     </a>
+  </div>
+  <div class="relative h-24 bg-indigo-750 shadow-md {% unless outer_forloop.first and forloop.first %}-ml-6{% endunless %}">
+    <div class="absolute top-0 left-0 mt-2 h-14 w-10 rounded-md bg-indigo-700 shadow-inner"></div>
+    {% if outer_forloop.last and forloop.last %}
+      <div class="absolute top-0 right-0 mt-2 h-14 w-10 rounded-md bg-indigo-700 shadow-inner"></div>
+    {% endif %}
   </div>
 </div>

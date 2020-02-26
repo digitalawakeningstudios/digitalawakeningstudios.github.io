@@ -12,7 +12,7 @@ client: Discovery Place
 clientLink: http://www.discoveryplace.org/
 tech: openFrameworks, OpenCV, OpenGL, C++, Kinect
 
-thumb: /assets/img/projects/discovery-place-interactive-installation-thumb-0.5x-80.jpg
+thumb: /assets/img/projects/discovery-place-interactive-installation-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg
 
 media:
