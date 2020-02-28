@@ -6,7 +6,7 @@ author: Nathan Selikoff
 twitter:
   username: nselikoff
   card: summary
-logo: /assets/img/nathan-headshot-yellow-blue-480w.png
+logo: /assets/img/social-share-80.jpg
 social:
   name: Ben Balter
   links:
@@ -29,9 +29,9 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/img/nathan-headshot-yellow-blue-480w.png
-        width: 480
-        height: 480
+        path: /assets/img/social-share-80.jpg
+        width: 1080
+        height: 1080
 
 collections:
   projects:
