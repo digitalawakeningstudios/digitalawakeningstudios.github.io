@@ -4,12 +4,16 @@ layout: project
 categoryId: 3
 category: Performance
 
-title: Wil Smith
-subtitle: Interactive Art For Live Organ
+title: Wil Smith - Interactive Art For Live Organ
+headline: Wil Smith
+subhead: Interactive Art For Live Organ
 agency: Wil Smith
 agencyLink: http://www.wilsmithmusic.com/
 client: New Music Miami Festival
 tech: Processing, VDMX
+
+# for og:image
+image: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg
 
 thumb: /assets/img/projects/new-music-miami-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg

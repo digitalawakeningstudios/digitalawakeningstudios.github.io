@@ -4,13 +4,17 @@ layout: project
 categoryId: 4
 category: Generative Art
 
-title: Depeña Studio
-subtitle: Kinect Interactive Installation
+title: Depeña Studio - Kinect Interactive Installation
+headline: Depeña Studio
+subhead: Kinect Interactive Installation
 agency: Depeña Studio
 agencyLink: http://ivandepena.com/
 client: Discovery Place
 clientLink: http://www.discoveryplace.org/
 tech: openFrameworks, OpenCV, OpenGL, C++, Kinect
+
+# for og:image
+image: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg
 
 thumb: /assets/img/projects/discovery-place-interactive-installation-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg

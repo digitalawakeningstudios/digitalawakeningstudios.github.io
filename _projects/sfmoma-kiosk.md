@@ -4,13 +4,17 @@ layout: project
 categoryId: 1
 category: Exhibit & Retail
 
-title: Belle & Wissell
-subtitle: Accessible Touchscreen Experience
+title: Belle & Wissell - Accessible Touchscreen Experience
+headline: Belle & Wissell
+subhead: Accessible Touchscreen Experience
 agency: Belle & Wissell, Co.
 agencyLink: http://bwco.info/
 client: SFMOMA
 clientLink: https://www.sfmoma.org/tickets/
 tech: Ember.js, d3.js, JavaScript, Electron
+
+# for og:image
+image: /assets/img/projects/sfmoma-kiosk-thumb-80.jpg
 
 thumb: /assets/img/projects/sfmoma-kiosk-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/sfmoma-kiosk-thumb-80.jpg

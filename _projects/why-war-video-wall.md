@@ -4,13 +4,17 @@ layout: project
 categoryId: 1
 category: Exhibit & Retail
 
-title: Belle & Wissell
-subtitle: Networked Video Wall
+title: Belle & Wissell - Networked Video Wall
+headline: Belle & Wissell
+subhead: Networked Video Wall
 agency: Belle & Wissell, Co.
 agencyLink: http://bwco.info/
 client: Flying Heritage Collection
 clientLink: http://www.flyingheritage.com/
 tech: Cinder, OpenGL, C++, Ember.js, d3.js, JavaScript, node.js
+
+# for og:image
+image: /assets/img/projects/why-war-video-wall-thumb-80.jpg
 
 thumb: /assets/img/projects/why-war-video-wall-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/why-war-video-wall-thumb-80.jpg

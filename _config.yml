@@ -1,16 +1,34 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.awakeningstudios.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Nathan Selikoff" # the name of your site, e.g. ACME Corp.
+title: Nathan Selikoff, Interactive Experience Developer # the name of your site, e.g. ACME Corp.
+description: I help design teams bring interactive experiences to life across exhibit & retail, data viz & web, live performance, and generative art. With over 20 years in production environments, my creative coding specialties include cross-platform 2D/3D graphics programming; parameterized design systems; gesture, multi-touch, motion and sensors; interactive data visualization; and real-time geospatial data pipelines.
+author: Nathan Selikoff
+twitter:
+  username: nselikoff
+  card: summary
+logo: /assets/img/nathan-headshot-yellow-blue-480w.png
+social:
+  name: Ben Balter
+  links:
+    - https://twitter.com/nselikoff
+    - https://www.linkedin.com/in/nathanselikoff/
+    - https://github.com/nselikoff
 
 plugins:
   - jekyll-postcss
   - jekyll-purgecss
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/nathan-headshot-yellow-blue-480w.png
 
 collections:
   projects:

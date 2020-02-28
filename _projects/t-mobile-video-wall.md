@@ -4,11 +4,15 @@ layout: project
 categoryId: 1
 category: Exhibit & Retail
 
-title: Razorfish
-subtitle: Multi-Touch Video Wall
+title: Razorfish - Multi-Touch Video Wall
+headline: Razorfish
+subhead: Multi-Touch Video Wall
 agency: Razorfish Emerging Experiences
 client: T-Mobile
 tech: Cinder, OpenGL, C++, Kinect
+
+# for og:image
+image: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg
 
 thumb: /assets/img/projects/t-mobile-video-wall-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg

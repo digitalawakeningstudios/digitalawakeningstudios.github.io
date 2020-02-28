@@ -4,12 +4,16 @@ layout: project
 categoryId: 3
 category: Performance
 
-title: Dmitri Tymoczko
-subtitle: Live Visuals for Symphony
+title: Dmitri Tymoczko - Live Visuals for Symphony
+headline: Dmitri Tymoczko
+subhead: Live Visuals for Symphony
 agency: Dmitri Tymoczko
 agencyLink: http://dmitri.tymoczko.com/
 client: Kitchener-Waterloo Symphony
 tech: Processing, Syphon, VDMX, Korg nanoKONTROL 2
+
+# for og:image
+image: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb-80.jpg
 
 thumb: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/thousand-faces-of-form-live-visuals-thumb-80.jpg

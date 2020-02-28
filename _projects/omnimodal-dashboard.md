@@ -4,12 +4,16 @@ layout: project
 categoryId: 2
 category: Data Viz & Web
 
-title: Omnimodal
-subtitle: Real-Time Analytics Dashboard
+title: Omnimodal - Real-Time Analytics Dashboard
+headline: Omnimodal
+subhead: Real-Time Analytics Dashboard
 agency: Omnimodal
 agencyLink: https://omnimodal.io
 client: City of Orlando
 tech: Ruby on Rails, Ember.js, JavaScript, Java, d3, turf.js, AWS, Node.js, Adobe XD
+
+# for og:image
+image: /assets/img/projects/omnimodal-dashboard-thumb-80.jpg
 
 thumb: /assets/img/projects/omnimodal-dashboard-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/omnimodal-dashboard-thumb-80.jpg

@@ -4,11 +4,15 @@ layout: project
 categoryId: 4
 category: Generative Art
 
-title: Leap Motion
-subtitle: Gesture Controlled Algorithmic Art
+title: Leap Motion - Gesture Controlled Algorithmic Art
+headline: Leap Motion
+subhead: Gesture Controlled Algorithmic Art
 client: Nathan Selikoff
 clientLink: https://nathanselikoff.com
 tech: Cinder, OpenGL, C++, Leap Motion
+
+# for og:image
+image: /assets/img/projects/beautiful-chaos-leap-motion-thumb-80.jpg
 
 thumb: /assets/img/projects/beautiful-chaos-leap-motion-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/beautiful-chaos-leap-motion-thumb-80.jpg

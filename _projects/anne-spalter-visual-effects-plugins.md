@@ -4,11 +4,15 @@ layout: project
 categoryId: 4
 category: Generative Art
 
-title: Anne Spalter
-subtitle: Kaleidoscopic Visual Effects Plugins
+title: Anne Spalter - Kaleidoscopic Visual Effects Plugins
+headline: Anne Spalter
+subhead: Kaleidoscopic Visual Effects Plugins
 client: Anne Spalter Studios
 clientLink: http://annespalter.com/
 tech: Quartz Composer, React.js, three.js, WebGL, HTML5, JavaScript, ExtendScript, FxFactory Pro, Adobe Creative Cloud
+
+# for og:image
+image: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-80.jpg
 
 thumb: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-80.jpg

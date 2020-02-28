@@ -22,7 +22,7 @@ This site is built using [Jekyll](https://jekyllrb.com) and [Tailwind CSS](https
 Assuming Netlify is setup and you're on the master branch, `git push` will do it!
 
 ## Wishlist
-* add favicon
+* minify assets? profile site first
 * left/right arrows for navigating through images
 * up/down arrows for navigating through projects
 * when "closing" project page, link to proper scroll position on index (vertical and horizontal within portfolio items)
