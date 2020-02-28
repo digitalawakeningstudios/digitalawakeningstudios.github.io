@@ -14,7 +14,10 @@ clientLink: http://www.discoveryplace.org/
 tech: openFrameworks, OpenCV, OpenGL, C++, Kinect
 
 # for og:image
-image: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg
+image:
+  path: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/discovery-place-interactive-installation-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/discovery-place-interactive-installation-thumb-80.jpg

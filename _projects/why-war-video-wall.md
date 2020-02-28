@@ -14,7 +14,10 @@ clientLink: http://www.flyingheritage.com/
 tech: Cinder, OpenGL, C++, Ember.js, d3.js, JavaScript, node.js
 
 # for og:image
-image: /assets/img/projects/why-war-video-wall-thumb-80.jpg
+image:
+  path: /assets/img/projects/why-war-video-wall-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/why-war-video-wall-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/why-war-video-wall-thumb-80.jpg

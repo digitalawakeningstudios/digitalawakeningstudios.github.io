@@ -12,7 +12,10 @@ clientLink: https://nathanselikoff.com
 tech: Cinder, OpenGL, C++, Leap Motion
 
 # for og:image
-image: /assets/img/projects/beautiful-chaos-leap-motion-thumb-80.jpg
+image:
+  path: /assets/img/projects/beautiful-chaos-leap-motion-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/beautiful-chaos-leap-motion-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/beautiful-chaos-leap-motion-thumb-80.jpg

@@ -13,7 +13,10 @@ client: New Music Miami Festival
 tech: Processing, VDMX
 
 # for og:image
-image: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg
+image:
+  path: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/new-music-miami-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/new-music-miami-live-visuals-thumb-80.jpg

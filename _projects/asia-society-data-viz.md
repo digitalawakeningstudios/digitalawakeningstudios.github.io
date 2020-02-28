@@ -13,7 +13,10 @@ client: Asia Society, Rhodium Group, Gist
 tech: d3.js, JavaScript, Angular, MongoDB, Node.js, GeoJSON, TopoJSON, QGIS, OpenStreetMap
 
 # for og:image
-image: /assets/img/projects/asia-society-data-viz-thumb-80.jpg
+image:
+  path: /assets/img/projects/asia-society-data-viz-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/asia-society-data-viz-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/asia-society-data-viz-thumb-80.jpg

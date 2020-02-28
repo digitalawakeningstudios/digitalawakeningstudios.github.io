@@ -12,7 +12,10 @@ client: T-Mobile
 tech: Cinder, OpenGL, C++, Kinect
 
 # for og:image
-image: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg
+image:
+  path: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/t-mobile-video-wall-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/t-mobile-video-wall-thumb-80.jpg

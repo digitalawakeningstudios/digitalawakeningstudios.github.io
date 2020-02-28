@@ -12,7 +12,10 @@ clientLink: http://annespalter.com/
 tech: Quartz Composer, React.js, three.js, WebGL, HTML5, JavaScript, ExtendScript, FxFactory Pro, Adobe Creative Cloud
 
 # for og:image
-image: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-80.jpg
+image:
+  path: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/anne-spalter-visual-effects-plugins-thumb-80.jpg

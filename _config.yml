@@ -28,7 +28,10 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/nathan-headshot-yellow-blue-480w.png
+      image:
+        path: /assets/img/nathan-headshot-yellow-blue-480w.png
+        width: 480
+        height: 480
 
 collections:
   projects:

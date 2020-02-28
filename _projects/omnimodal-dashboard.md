@@ -13,7 +13,10 @@ client: City of Orlando
 tech: Ruby on Rails, Ember.js, JavaScript, Java, d3, turf.js, AWS, Node.js, Adobe XD
 
 # for og:image
-image: /assets/img/projects/omnimodal-dashboard-thumb-80.jpg
+image:
+  path: /assets/img/projects/omnimodal-dashboard-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/omnimodal-dashboard-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/omnimodal-dashboard-thumb-80.jpg

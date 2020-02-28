@@ -12,7 +12,10 @@ client: Orlando Philharmonic
 tech: Processing, Quartz Composer, TouchOSC, VDMX, Wiimote
 
 # for og:image
-image: /assets/img/projects/four-dimensions-live-visuals-thumb-80.jpg
+image:
+  path: /assets/img/projects/four-dimensions-live-visuals-thumb-80.jpg
+  width: 513
+  height: 706
 
 thumb: /assets/img/projects/four-dimensions-live-visuals-thumb@0.5x-80.jpg
 thumb2x: /assets/img/projects/four-dimensions-live-visuals-thumb-80.jpg
