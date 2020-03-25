@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io.git"
+    "url": "git+https://github.com/digitalawakeningstudios/awakeningstudios.com.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io/issues"
+    "url": "https://github.com/digitalawakeningstudios/awakeningstudios.com/issues"
   },
-  "homepage": "https://github.com/digitalawakeningstudios/digitalawakeningstudios.github.io#readme",
+  "homepage": "https://github.com/digitalawakeningstudios/awakeningstudios.com#readme",
   "devDependencies": {
     "autoprefixer": "9.7.4",
     "postcss-cli": "7.1.0",
