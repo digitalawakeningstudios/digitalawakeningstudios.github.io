@@ -15,12 +15,26 @@
   }
 }
 
-.project-details p {
+.project-details p, .job-application p {
   @apply mb-4;
 }
 
-.project-details a {
+.project-details a, .job-application a {
   @apply underline;
+}
+
+.project-details a:hover, .job-application a:hover {
+  @apply text-accent;
+}
+
+.highlight pre {
+  @apply overflow-x-scroll;
+  @apply p-4;
+}
+
+code.highlighter-rouge {
+  @apply bg-gray-700;
+  @apply text-indigo-100;
 }
 
 @tailwind components;
