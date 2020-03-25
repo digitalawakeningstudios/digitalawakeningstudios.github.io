@@ -3,6 +3,7 @@ layout: job-application
 title: "Khan Academy - Senior Backend Engineer"
 greeting: Hi, I'm Nathan Selikoff, a multidisciplinary senior engineer!
 headline: I'd love to join the Khan Academy Engineering team :)
+description: Hi, I'm Nathan Selikoff, a multidisciplinary senior engineer, and I'd love to join the Khan Academy Engineering team :)
 
 links:
   - text: Resume
