@@ -31,12 +31,12 @@ links:
 {:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mb-4 id="projects"}
 ## Projects and previous work
 
-{:.text-indigo-400 .text-lg .lg:text-xl .mb-4}
+{:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
 ### Librarian and Scribe
 
 ![Omnimodal Realtime Data Flow](/assets/img/jobs/omnimodal-realtime-data-flow-720w.png)
 
-{:.text-lg}
+{:.text-lg .text-indigo-100}
 Context
 
 In the past three years, as CTO and co-founder of a startup, I've been designing and building a geospatial data platform from the ground up. Part of the challenge has been to engineer reliable and scalable cloud-based data pipelines that can fetch and archive mobility data from public transit, shared mobility (bicycles and scooters), and parking APIs - and transform, cache, and make the data available to the web application frontend.
@@ -47,26 +47,26 @@ Originally its own app, the Librarian registers real-time and static data feeds 
 
 This system is in production with 14 data feeds for the City of Orlando, but is designed to be able to scale up to hundreds of cities and thousands of data feeds.
 
-{:.text-lg}
+{:.text-lg .text-indigo-100}
 Links
 
 The code is not open source, but I've extracted the READMEs for a little more context and would be happy to walk you through the system in further detail.
 
 * [README for `scribe` and `librarian`](https://gist.github.com/nselikoff/77f00f055832d99543190fcaac6aa47c)
 
-{:.text-indigo-400 .text-lg .lg:text-xl .mt-8 .mb-4}
+{:.text-indigo-200 .text-lg .lg:text-xl .mt-8 .mb-4}
 ### Filaments
 
 ![Filaments](/assets/img/jobs/filaments_0.jpg)
 
-{:.text-lg}
+{:.text-lg .text-indigo-100}
 Context
 
 In 2014, I spent 6 days with about 200 students at Stone Middle School in Melbourne, Florida, teaching them the basics of making art with code. On the first day, I introduced the concept of "computational creation," or "creative coding," to the students, along with a discussion about using a sketchbook / design notebook in the creative process. After a few days learning Scratch, we switched to Processing, specifically Khan Academy's implementation of Processing JS.
 
 With Processing, we focused on more abstract, algorithmic art and code based on drawing simple shapes. We discussed drawing within a coordinate system, how color works on a computer versus with paint (additive vs subtractive), the draw loop, variables, and basic interactivity. I shared the "chaos game", a stochastic method for generating a Sierpinski triangle, and talked about algorithmic drawing, giving them an example of mine called Filaments that many of them remixed.
 
-{:.text-lg}
+{:.text-lg .text-indigo-100}
 Links
 
 * [Filaments on Khan Academy](https://www.khanacademy.org/computer-programming/filaments/2396343163) (make sure to check out the remixes!)
@@ -77,7 +77,7 @@ Links
 {:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mt-8 .mb-4 id="responses"}
 ## Responses
 
-{:.text-indigo-400 .text-lg .lg:text-xl .mb-4}
+{:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
 ### Tell us briefly how your experiences and perspectives - whether personal, professional, academic, or otherwise - could contribute to the diversity of our team:
 
 I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly.
@@ -88,7 +88,7 @@ I've given a number of talks over the years, including a [TEDx talk](https://www
 
 There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk).
 
-{:.text-indigo-400 .text-lg .lg:text-xl .mb-4}
+{:.text-indigo-200 .text-lg .lg:text-xl .mt-8 .mb-4}
 ### Briefly describe your experience building backend web services that deal with large volumes of requests per second:
 
 I've been fascinated by scalability for awhile; I remember reading the "High Scalability" blog way before I was anywhere close to a project that needed to handle significant traffic.
