@@ -27,7 +27,7 @@ links:
 [Responses](#responses){:.mr-2}
 [Links](#links)
 
-{:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mt-8 .mb-4 id="projects"}
+{:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mb-4 id="projects"}
 
 ## Projects and previous work
 
@@ -84,7 +84,7 @@ Links
 - [My original Filaments blog post](https://nathanselikoff.com/698/code-sketches/filaments)
 - [Full writeup of my teaching artist residency](https://nathanselikoff.com/2316/events/teaching-artist-residency-stone-middle-school)
 
-{:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mb-4 id="responses"}
+{:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mt-8 .mb-4 id="responses"}
 
 ## Responses
 
