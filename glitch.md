@@ -23,27 +23,9 @@ links:
 ---
 
 {:.sm:hidden}
-[Responses](#responses){:.mr-2}
 [Projects](#projects){:.mr-2}
+[Responses](#responses){:.mr-2}
 [Links](#links)
-
-{:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mb-4 id="responses"}
-
-## Responses
-
-{:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
-
-### Why do you want to be a part of what we're doing at Glitch?
-
-I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly. I've never worked in a traditional tech company, having spent most of my 20+ year career freelancing with a variety of small businesses, non-profits, and later advertising and design firms.
-
-Three years ago, I started a social enterprise called Omnimodal to address the need for high-quality, real-time data for public transit and other mobility systems. My cofounder and I talked a lot about fostering an inclusive, equitable and accessible environment where we and future team members could be ourselves, be honest with our needs, and look after our other passions and desires outside work. People describe me as kind, gentle, patient, and a good listener.
-
-I'm now moving away from day to day responsibilities at my startup, and am seeking the right team for the next stage of my career. I have been keeping an eye on Glitch since the Fog Creek days - I was an avid reader of Joel On Software - and have been impressed at your longevity as a company, people-centric culture of sharing, and leadership with regards to diversity, equity and inclusion. I am strongly aligned with those values and would love to leverage my experience and perspective to make significant contributions to Glitch.
-
-Although there aren't any openings currently listed, I believe my unique and deep art + tech background, especially in the past few years working on real-time data pipelines, visualization, and web-based services and tools, make me a great candidate for joining the Glitch team. In addition to working on the platform itself, I'd love to spend time playing and experimenting with creative coding, data visualization, and mapping libraries on Glitch like Processing, d3, three.js, turf.js, deck.gl, and Mapbox GL. By expanding the content and functionality of Glitch with these frameworks in mind, I believe I could help drive adoption of Glitch by new and emerging audiences of designers, artists, data journalists, and musicians.
-
-There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk)!
 
 {:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mt-8 .mb-4 id="projects"}
 
@@ -101,3 +83,21 @@ Links
 - [Filaments on Khan Academy](https://www.khanacademy.org/computer-programming/filaments/2396343163) (make sure to check out the remixes!)
 - [My original Filaments blog post](https://nathanselikoff.com/698/code-sketches/filaments)
 - [Full writeup of my teaching artist residency](https://nathanselikoff.com/2316/events/teaching-artist-residency-stone-middle-school)
+
+{:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mb-4 id="responses"}
+
+## Responses
+
+{:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
+
+### Why do you want to be a part of what we're doing at Glitch?
+
+I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly. I've never worked in a traditional tech company, having spent most of my 20+ year career freelancing with a variety of small businesses, non-profits, and later advertising and design firms.
+
+Three years ago, I started a social enterprise called Omnimodal to address the need for high-quality, real-time data for public transit and other mobility systems. My cofounder and I talked a lot about fostering an inclusive, equitable and accessible environment where we and future team members could be ourselves, be honest with our needs, and look after our other passions and desires outside work. People describe me as kind, gentle, patient, and a good listener.
+
+I'm now moving away from day to day responsibilities at my startup, and am seeking the right team for the next stage of my career. I have been keeping an eye on Glitch since the Fog Creek days - I was an avid reader of Joel On Software - and have been impressed at your longevity as a company, people-centric culture of sharing, and leadership with regards to diversity, equity and inclusion. I am strongly aligned with those values and would love to leverage my experience and perspective to make significant contributions to Glitch.
+
+Although there aren't any openings currently listed, I believe my unique and deep art + tech background, especially in the past few years working on real-time data pipelines, visualization, and web-based services and tools, make me a great candidate for joining the Glitch team. In addition to working on the platform itself, I'd love to spend time playing and experimenting with creative coding, data visualization, and mapping libraries on Glitch like Processing, d3, three.js, turf.js, deck.gl, and Mapbox GL. By expanding the content and functionality of Glitch with these frameworks in mind, I believe I could help drive adoption of Glitch by new and emerging audiences of designers, artists, data journalists, and musicians.
+
+There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk)!
