@@ -44,7 +44,7 @@ Context
 
 In the past three years, as CTO and co-founder of a startup, I've been designing and building a geospatial data platform from the ground up.
 
-To accomplish this, I've utilized and experimented with geospatial visualization APIs (Google Maps, Mapbox, turf.js, d3.js), pub/sub services (PubNub), streaming event pipelines (AWS Kinesis, Lambda), microservices (node.js), caching layers (Redis, AWS CloudFront), and more traditional web app frontends (Ember.js) and backends (Ruby on Rails, Postgresql). I've also dockerized legacy Java applications to facilitate deployment on AWS ECS/EC2, for particular needs in the data pipeline.
+To accomplish this, I've utilized and experimented with geospatial visualization APIs (Google Maps, Mapbox, turf.js, d3.js), pub/sub services (PubNub), streaming event pipelines (AWS Kinesis, Lambda), microservices (node.js), caching layers (Redis, AWS CloudFront), and more traditional web app frontends (Ember.js) and backends (Ruby on Rails, PostgreSQL). I've also dockerized legacy Java applications to facilitate deployment on AWS ECS/EC2, for particular needs in the data pipeline.
 
 Part of the challenge has been to engineer reliable and scalable cloud-based data pipelines that can fetch and archive mobility data from public transit, shared mobility (bicycles and scooters), and parking APIs - and transform, cache, and make the data available to an intuitive web-based analytics dashboard.
 

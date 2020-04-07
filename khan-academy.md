@@ -20,7 +20,6 @@ links:
     href: https://www.linkedin.com/in/nathanselikoff/
   - text: GitHub
     href: https://github.com/nselikoff
-
 ---
 
 {:.sm:hidden}
@@ -29,9 +28,11 @@ links:
 [Links](#links)
 
 {:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mb-4 id="projects"}
+
 ## Projects and previous work
 
 {:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
+
 ### Librarian and Scribe
 
 ![Omnimodal Realtime Data Flow](/assets/img/jobs/omnimodal-realtime-data-flow-720w.png)
@@ -52,9 +53,10 @@ Links
 
 The code is not open source, but I've extracted the READMEs for a little more context and would be happy to walk you through the system in further detail.
 
-* [README for `scribe` and `librarian`](https://gist.github.com/nselikoff/77f00f055832d99543190fcaac6aa47c)
+- [README for `scribe` and `librarian`](https://gist.github.com/nselikoff/77f00f055832d99543190fcaac6aa47c)
 
 {:.text-indigo-200 .text-lg .lg:text-xl .mt-8 .mb-4}
+
 ### Filaments
 
 ![Filaments](/assets/img/jobs/filaments_0.jpg)
@@ -69,15 +71,16 @@ With Processing, we focused on more abstract, algorithmic art and code based on 
 {:.text-lg .text-indigo-100}
 Links
 
-* [Filaments on Khan Academy](https://www.khanacademy.org/computer-programming/filaments/2396343163) (make sure to check out the remixes!)
-* [My original Filaments blog post](https://nathanselikoff.com/698/code-sketches/filaments)
-* [Full writeup of my teaching artist residency](https://nathanselikoff.com/2316/events/teaching-artist-residency-stone-middle-school)
-
+- [Filaments on Khan Academy](https://www.khanacademy.org/computer-programming/filaments/2396343163) (make sure to check out the remixes!)
+- [My original Filaments blog post](https://nathanselikoff.com/698/code-sketches/filaments)
+- [Full writeup of my teaching artist residency](https://nathanselikoff.com/2316/events/teaching-artist-residency-stone-middle-school)
 
 {:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mt-8 .mb-4 id="responses"}
+
 ## Responses
 
 {:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
+
 ### Tell us briefly how your experiences and perspectives - whether personal, professional, academic, or otherwise - could contribute to the diversity of our team:
 
 I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly.
@@ -89,13 +92,14 @@ I've given a number of talks over the years, including a [TEDx talk](https://www
 There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk).
 
 {:.text-indigo-200 .text-lg .lg:text-xl .mt-8 .mb-4}
+
 ### Briefly describe your experience building backend web services that deal with large volumes of requests per second:
 
 I've been fascinated by scalability for awhile; I remember reading the "High Scalability" blog way before I was anywhere close to a project that needed to handle significant traffic.
 
 As mentioned [above](#projects), in the past three years, as CTO and co-founder of a startup, I've been designing and building a geospatial data platform from the ground up. Part of the challenge has been to engineer reliable and scalable cloud-based data pipelines without going overboard on complexity too early in the evolution of the product (i.e. before we actually have enough users to run into scalability problems).
 
-Over that time I've experimented with pub/sub services (PubNub), streaming event pipelines (AWS Kinesis, Lambda), microservices (node.js), caching layers (Redis, AWS CloudFront), and more traditional web app backends (Ruby on Rails, Postgresql).
+Over that time I've experimented with pub/sub services (PubNub), streaming event pipelines (AWS Kinesis, Lambda), microservices (node.js), caching layers (Redis, AWS CloudFront), and more traditional web app backends (Ruby on Rails, PostgreSQL).
 
 I've had to simplify some of my early architectural decisions in order to keep the entire system within a scope that I could handle myself - in some ways, going the opposite direction from your team by consolidating microservices to improve my speed of iteration and decrease complexity.
 

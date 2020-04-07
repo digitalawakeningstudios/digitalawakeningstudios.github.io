@@ -1,13 +1,13 @@
 ---
 layout: job-application
-title: "Development Seed - Data/Cloud Engineer"
-greeting: Hi, I'm Nathan Selikoff, a multidisciplinary senior engineer!
-headline: I'd love to join the Development Seed Engineering team :)
-description: Hi, I'm Nathan Selikoff, a multidisciplinary senior engineer, and I'd love to join the Development Seed Engineering team :)
+title: "GitHub - Senior Software Engineer"
+greeting: Hi, I'm Nathan Selikoff, a cross-disciplinary senior engineer!
+headline: I'd love to join the GitHub Engineering team :)
+description: Hi, I'm Nathan Selikoff, a cross-disciplinary senior engineer, and I'd love to join the GitHub Engineering team :)
 
 links:
   - text: Resume
-    href: /assets/nathan-selikoff-resume-development-seed.pdf
+    href: /assets/nathan-selikoff-resume-github.pdf
   - text: Commercial Work
     href: /
   - text: Interactive Art
@@ -33,19 +33,15 @@ links:
 
 {:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
 
-### Tell us about yourself and what you’d love to work on at Development Seed:
+### Why do you want to be a part of what we're doing at GitHub?
 
-I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly. Over the past 20+ years, I've pursued opportunities that engage both the left and right sides of my brain as I've worked with small businesses, non-profits, research labs, and advertising agencies as a developer, designer and entrepreneur.
+I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly. I've never worked in a traditional tech company, having spent most of my 20+ year career freelancing with a variety of small businesses, non-profits, and later advertising and design firms.
 
-Three years ago, I started a social enterprise called Omnimodal to address the need for high-quality, real-time data for public transit and other mobility systems. As CTO, I've been designing and building a geospatial data platform from the ground up. Part of the challenge has been to engineer reliable and scalable cloud-based data pipelines that can fetch and archive mobility data from public transit, shared mobility (bicycles and scooters), and parking APIs - and transform, cache, and make the data available to an intuitive web-based analytics dashboard.
+Three years ago, I started a social enterprise called Omnimodal to address the need for high-quality, real-time data for public transit and other mobility systems. My cofounder and I talked a lot about fostering an inclusive, equitable and accessible environment where we and future team members could be ourselves, be honest with our needs, and look after our other passions and desires outside work. People describe me as kind, gentle, patient, and a good listener.
 
-Even more so than technology, a central challenge for Omnimodal has been navigating the organizational complexity of public and semi-public agencies; our end users are the internal staff at cities, counties, Metropolitan Planning Organizations, and Departments of Transportation. I'm particularly proud of how we have been able to incorporate clickable prototypes, user testing, and other principles of design thinking and agile software development to directly involve the staff in the development process.
+I'm now moving away from day to day responsibilities at my startup, and am seeking the right team for the next stage of my career. I relish the idea of joining GitHub, where I can leverage my experience and perspective to collaborate with a team that is making a difference in the world. I believe my unique and deep art + tech background, especially in the past few years working on real-time data pipelines, visualization, and web-based services and tools, make me a great candidate for joining either the Issues or Coding Applications teams as a Senior Software Engineer.
 
-I'm now moving away from day to day responsibilities at my startup, and am seeking the right team for the next stage of my career. I have been keeping an eye on Development Seed since the late 2000s, when you were innovating in the Drupal ecosystem - and have been impressed at your longevity as a company, engagement with the public sector, and commitment to applying your time and effort towards moving the needle on the world's toughest challenges. I am strongly aligned with those values and would love to leverage my experience and perspective to make significant contributions to Development Seed's Earth Observation data platform.
-
-My background, especially in the past few years working on real-time geospatial data pipelines, visualization, and web-based services and tools, make me a great candidate for both the Data Engineer and Cloud Engineer positions currently open. I'd love to work on tools that help scientists intuitively explore and leverage data, and ultimately lead to the kinds of rapid insights humanity needs to navigate what's ahead in terms of climate change and other unexpected challenges that will strain (and are currently straining) our resilience. Also, I would love to play and experiment with the team on new ideas, so I'm excited that you've dedicated "The Greenhouse" to such activities.
-
-There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk).
+There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk)!
 
 {:.font-mono .text-accent .text-xl .lg:text-2xl .leading-tight .mt-8 .mb-4 id="projects"}
 
@@ -62,7 +58,7 @@ There's a lot more I'd love to share, but I'll leave you with one final tidbit: 
 {:.text-lg .text-indigo-100}
 Context
 
-In the past three years, as CTO and co-founder of a startup, I've been designing and building a geospatial data platform from the ground up.
+In the past three years, as CTO and co-founder of a startup, I've been designing and building a real-time geospatial data platform from the ground up.
 
 To accomplish this, I've utilized and experimented with geospatial visualization APIs (Google Maps, Mapbox, turf.js, d3.js), pub/sub services (PubNub), streaming event pipelines (AWS Kinesis, Lambda), microservices (node.js), caching layers (Redis, AWS CloudFront), and more traditional web app frontends (Ember.js) and backends (Ruby on Rails, PostgreSQL). I've also dockerized legacy Java applications to facilitate deployment on AWS ECS/EC2, for particular needs in the data pipeline.
 
@@ -97,6 +93,7 @@ With Processing, we focused on abstract, algorithmic art and code based on drawi
 {:.text-lg .text-indigo-100}
 Links
 
+- [Filaments on Glitch](https://filaments.glitch.me)
 - [Filaments on Khan Academy](https://www.khanacademy.org/computer-programming/filaments/2396343163) (make sure to check out the remixes!)
 - [My original Filaments blog post](https://nathanselikoff.com/698/code-sketches/filaments)
 - [Full writeup of my teaching artist residency](https://nathanselikoff.com/2316/events/teaching-artist-residency-stone-middle-school)
