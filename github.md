@@ -33,13 +33,15 @@ links:
 
 {:.text-indigo-200 .text-lg .lg:text-xl .mb-4}
 
-### Why do you want to be a part of what we're doing at GitHub?
+### Why do you want to work at GitHub?
 
 I come from an interdisciplinary art + tech background and have had quite a nontraditional career. My mom is an artist and my dad is a software engineer so I've grown up around both influences, which has benefited me greatly. I've never worked in a traditional tech company, having spent most of my 20+ year career freelancing with a variety of small businesses, non-profits, and later advertising and design firms.
 
 Three years ago, I started a social enterprise called Omnimodal to address the need for high-quality, real-time data for public transit and other mobility systems. My cofounder and I talked a lot about fostering an inclusive, equitable and accessible environment where we and future team members could be ourselves, be honest with our needs, and look after our other passions and desires outside work. People describe me as kind, gentle, patient, and a good listener.
 
-I'm now moving away from day to day responsibilities at my startup, and am seeking the right team for the next stage of my career. I relish the idea of joining GitHub, where I can leverage my experience and perspective to collaborate with a team that is making a difference in the world. I believe my unique and deep art + tech background, especially in the past few years working on real-time data pipelines, visualization, and web-based services and tools, make me a great candidate for joining either the Issues or Coding Applications teams as a Senior Software Engineer.
+I'm now moving away from day to day responsibilities at my startup, and am seeking the right team for the next stage of my career. I relish the idea of joining GitHub, where I can leverage my experience and perspective to collaborate with a team that is making a difference in the world, and contribute back to a platform that has been so empowering for me and millions of other developers.
+
+I believe my unique and deep art + tech background of rapidly prototyping new ideas, plus my focus in the past few years on real-time data pipelines, visualization, and web-based services and tools, make me a great candidate for joining either the Issues or Coding Applications teams as a Senior Software Engineer.
 
 There's a lot more I'd love to share, but I'll leave you with one final tidbit: my wife and I [rode bicycles 1000 miles across the US in the summer of 2009](https://www.youtube.com/watch?v=fKYUrGmXqIk)!
 
