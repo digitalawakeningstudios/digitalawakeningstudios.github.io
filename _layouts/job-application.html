@@ -2,49 +2,66 @@
 layout: default
 ---
 
-<div class="bg-indigo-700">
+<div class="bg-indigo-700 print:bg-white print:text-gray-900">
   <header class="mx-auto px-6 pt-8 md:max-w-screen-md lg:max-w-screen-lg">
     <div class="sm:flex">
       <div class="sm:w-1/5 sm:mr-8 flex flex-col items-center">
-        <img class="rounded-full"
-             srcset="/assets/img/nathan-headshot-yellow-blue-240w.png,
-                     /assets/img/nathan-headshot-yellow-blue-480w.png 2x"
-             src="/assets/img/nathan-headshot-yellow-blue-480w.png">
+        <img
+          class="rounded-full"
+          srcset="
+            /assets/img/nathan-headshot-yellow-blue-240w.png,
+            /assets/img/nathan-headshot-yellow-blue-480w.png 2x
+          "
+          src="/assets/img/nathan-headshot-yellow-blue-480w.png"
+        />
         <p class="text-md sm:text-sm pt-4 text-center">{{ page.greeting }}</p>
       </div>
       <div class="sm:w-4/5 mt-8 md:mt-0">
-        <h1 class="font-mono text-indigo-300 text-2xl md:text-3xl lg:text-4xl leading-tight">{{ page.headline }}</h1>
+        <h1
+          class="font-mono text-indigo-300 print:text-gray-900 text-2xl md:text-3xl lg:text-4xl leading-tight"
+        >
+          {{ page.headline }}
+        </h1>
       </div>
     </div>
   </header>
 
-  <section class="bg-gray-900">
-    <div class="mt-8 mx-auto p-6 md:pt-12 md:max-w-screen-md lg:max-w-screen-lg">
+  <section class="bg-gray-900 print:bg-white print:text-gray-900">
+    <div
+      class="mt-8 mx-auto p-6 md:pt-12 md:max-w-screen-md lg:max-w-screen-lg"
+    >
       <div class="flex flex-col sm:flex-row">
         <div class="order-last sm:order-first sm:w-1/5 sm:text-right sm:mr-8">
           {% if page.links %}
-            <h2 class="font-mono text-accent text-xl lg:text-2xl leading-tight mt-8 mb-4 sm:hidden" id="links">Links</h2>
-            <ul>
-              {% for link in page.links %}
-                <li>
-                  <a class="underline hover:text-accent" href="{{ link.href }}">
-                    {{ link.text }}
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
+          <h2
+            class="font-mono text-accent print:text-black text-xl lg:text-2xl leading-tight mt-8 mb-4 sm:hidden"
+            id="links"
+          >
+            Links
+          </h2>
+          <ul>
+            {% for link in page.links %}
+            <li>
+              <a class="underline hover:text-accent" href="{{ link.href }}">
+                {{ link.text }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
           {% endif %}
         </div>
         <div class="sm:w-3/5 job-application">
           {{ content }}
         </div>
-        <div class="sm:w-1/5">
-        </div>
+        <div class="sm:w-1/5"></div>
       </div>
     </div>
   </section>
 
   <footer class="text-center p-8">
-    <p>Congrats, you made it to the bottom! <a href="#top" class="underline hover:text-accent">Back to top</a></p>
+    <p>
+      Congrats, you made it to the bottom!
+      <a href="#top" class="underline hover:text-accent">Back to top</a>
+    </p>
   </footer>
 </div>
