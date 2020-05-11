@@ -15,21 +15,28 @@
   }
 }
 
-.project-details p, .job-application p {
+.project-details p,
+.job-application p {
   @apply mb-4;
 }
 
-.project-details a, .job-application a {
+.project-details a,
+.job-application a {
   @apply underline;
 }
 
-.project-details a:hover, .job-application a:hover {
+.project-details a:hover,
+.job-application a:hover {
   @apply text-accent;
 }
 
 .highlight pre {
   @apply overflow-x-scroll;
   @apply p-4;
+}
+
+.page-break-before {
+  page-break-before: always;
 }
 
 code.highlighter-rouge {

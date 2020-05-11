@@ -34,7 +34,7 @@ layout: default
         <div class="order-last sm:order-first sm:w-1/5 sm:text-right sm:mr-8">
           {% if page.links %}
           <h2
-            class="font-mono text-accent print:text-black text-xl lg:text-2xl leading-tight mt-8 mb-4 sm:hidden"
+            class="font-mono text-accent sm:text-indigo-100 print:text-black text-xl sm:text-lg leading-tight mt-8 sm:mt-0 mb-4"
             id="links"
           >
             Links
@@ -45,6 +45,20 @@ layout: default
               <a class="underline hover:text-accent" href="{{ link.href }}">
                 {{ link.text }}
               </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %} {% if page.values %}
+          <h2
+            class="font-mono text-accent sm:text-indigo-100 print:text-black text-xl sm:text-lg leading-tight mt-8 mb-4"
+            id="values"
+          >
+            My Values
+          </h2>
+          <ul class="text-xs" style="hyphens: auto;">
+            {% for value in page.values %}
+            <li class="mt-4">
+              {{ value | markdownify }}
             </li>
             {% endfor %}
           </ul>
